@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap");
 
 * {
     font-family: "Poppins", sans-serif;
@@ -6,6 +6,7 @@
     padding: 0;
     box-sizing: border-box;
     outline: none;
+    border: none;
     text-decoration: none;
     text-transform: capitalize;
     transition: all 0.2s linear;
@@ -19,6 +20,11 @@ $bg-color: #222;
 $black-bg: rgba(17, 17, 17, 0.7);
 $border: 0.2rem solid $blue;
 
+@mixin grid($val) {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax($val, 1fr));
+    gap: 1.5rem;
+}
 html {
     font-size: 62.5%;
     overflow-x: hidden;
@@ -36,5 +42,109 @@ html {
     &::-webkit-scrollbar-thumb {
         background: $blue;
         border-radius: 5rem;
+    }
+}
+body {
+    background: $black;
+    overflow-x: hidden;
+}
+section {
+    padding: 3rem 9%;
+}
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background: $bg-color;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 9%;
+
+    .navbar a {
+        font-size: 1.7rem;
+        color: $light-color;
+        display: inline-block;
+        margin: 0 1rem;
+
+        &:hover {
+            color: $blue;
+        }
+    }
+
+    .btn {
+        margin-top: 0;
+    }
+}
+.logo {
+    font-size: 2.5rem;
+    color: $white;
+    font-weight: bolder;
+
+    i {
+        color: $blue;
+        padding-right: 0.5rem;
+    }
+}
+#menu-btn {
+    font-size: 2.5rem;
+    color: $white;
+    cursor: pointer;
+    display: none;
+}
+@media (max-width: 991px) {
+    html {
+        font-size: 55%;
+    }
+    .header {
+        padding: 1.5rem 2rem;
+    }
+    section {
+        padding: 3rem 2rem;
+    }
+}
+@media (max-width: 768px) {
+    #menu-btn {
+        display: inline-block;
+    }
+    .header .navbar {
+        position: absolute;
+        top: 99%;
+        left: 0;
+        right: 0;
+        background: #222;
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    }
+    .header .navbar.active {
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+    .header .navbar a {
+        margin: 2rem;
+        font-size: 2rem;
+        display: block;
+    }
+    .home {
+        margin-top: 10rem;
+    }
+    .home .content span {
+        font-size: 8vw;
+    }
+    .home .content h3 {
+        font-size: 9vw;
+    }
+}
+@media (max-width: 450px) {
+    html {
+        font-size: 50%;
+    }
+    .about .content h3 {
+        font-size: 3.5rem;
+    }
+    .banner .content h3 {
+        font-size: 2.7rem;
     }
 }
