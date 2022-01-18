@@ -33,13 +33,13 @@
         <a data-aos="zoom-in-left" data-aos-delay="150" href="#" class="logo">Clube Recanto</a>
 
         <nav class="navbar">
-            <a data-aos="zoom-in-left" data-aos-delay="450" href="#about">Início</a>
-            <a data-aos="zoom-in-left" data-aos-delay="600" href="#destination">Eventos</a>
-            <a data-aos="zoom-in-left" data-aos-delay="750" href="#services">Experiências</a>
-            <a data-aos="zoom-in-left" data-aos-delay="750" href="#review">Nossos Sócios</a>
+            <a data-aos="zoom-in-left" data-aos-delay="300" href="#about">Início</a>
+            <a data-aos="zoom-in-left" data-aos-delay="300" href="#destination">Eventos</a>
+            <a data-aos="zoom-in-left" data-aos-delay="300" href="#services">Experiências</a>
+            <a data-aos="zoom-in-left" data-aos-delay="300" href="#review">Nossos Sócios</a>
         </nav>
 
-        <a data-aos="zoom-in-left" data-aos-delay="1050" href="#book-form" class="btn">Associado</a>
+        <a data-aos="zoom-in-left" data-aos-delay="450" href="#book-form" class="btn">Associado</a>
 
     </header>
     <!-- header section ends -->
@@ -61,7 +61,7 @@
             <span>Nós estamos abertos todos os dias, das 08:00 às 22:00 horas.</span>
             <p>Desde 1992 se comprometendo a oferecer as melhores experiências. Torne-se sócio hoje mesmo!<br>
                 Clique no botão <strong>"Se inscrever"</strong> e você será redirecionado para a página do associado, onde indicaremos os melhores passes para o seu perfil!</p><br>
-            <a href="associado-inscricao.php" class="btn">Se inscrever</a>
+            <a href="inscricao.php" class="btn">Se inscrever</a>
         </div>
 
     </section>
@@ -90,7 +90,7 @@
                 </div>
             </div>
 
-            <div class="box" data-aos="fade-up" data-aos-delay="300">
+            <div class="box" data-aos="fade-up" data-aos-delay="150">
                 <div class="image">
                     <img src="images/blog-2.jpg" alt="">
                 </div>
@@ -104,7 +104,7 @@
                 </div>
             </div>
 
-            <div class="box" data-aos="fade-up" data-aos-delay="450">
+            <div class="box" data-aos="fade-up" data-aos-delay="150">
                 <div class="image">
                     <img src="images/blog-3.jpg" alt="">
                 </div>
@@ -148,57 +148,57 @@
                 <h3>Camping</h3>
             </div>
 
-            <div class="box" data-aos="zoom-in-up" data-aos-delay="300">
+            <div class="box" data-aos="zoom-in-up" data-aos-delay="150">
                 <i class="fas fa-hot-tub"></i>
                 <h3>2 Saunas Masculinas e Femininas</h3>
             </div>
 
-            <div class="box" data-aos="zoom-in-up" data-aos-delay="300">
+            <div class="box" data-aos="zoom-in-up" data-aos-delay="150">
                 <i class="fas fa-fish"></i>
                 <h3>Lago de Pesca Esportiva</h3>
             </div>
 
-            <div class="box" data-aos="zoom-in-up" data-aos-delay="300">
+            <div class="box" data-aos="zoom-in-up" data-aos-delay="150">
                 <i class="fas fa-biking"></i>
                 <h3>Trilhas de Bike</h3>
             </div>
 
-            <div class="box" data-aos="zoom-in-up" data-aos-delay="450">
+            <div class="box" data-aos="zoom-in-up" data-aos-delay="150">
                 <i class="fas fa-swimmer"></i>
                 <h3>3 piscinas</h3>
             </div>
 
-            <div class="box" data-aos="zoom-in-up" data-aos-delay="450">
+            <div class="box" data-aos="zoom-in-up" data-aos-delay="150">
                 <i class="fas fa-futbol"></i>
                 <h3>4 Campos de Futebol</h3>
             </div>
 
-            <div class="box" data-aos="zoom-in-up" data-aos-delay="450">
+            <div class="box" data-aos="zoom-in-up" data-aos-delay="150">
                 <i class="fas fa-basketball-ball"></i>
                 <h3>2 Quadras de Basquete</h3>
             </div>
 
-            <div class="box" data-aos="zoom-in-up" data-aos-delay="600">
+            <div class="box" data-aos="zoom-in-up" data-aos-delay="150">
                 <i class="fas fa-dumbbell"></i>
                 <h3>Academia</h3>
             </div>
 
-            <div class="box" data-aos="zoom-in-up" data-aos-delay="600">
+            <div class="box" data-aos="zoom-in-up" data-aos-delay="150">
                 <i class="fas fa-volleyball-ball"></i>
                 <h3>3 Quadras de Voleibol</h3>
             </div>
 
-            <div class="box" data-aos="zoom-in-up" data-aos-delay="600">
+            <div class="box" data-aos="zoom-in-up" data-aos-delay="150">
                 <i class="fas fa-bullseye"></i>
                 <h3>Tiro ao Alvo (Padrão Olímpico)</h3>
             </div>
 
-            <div class="box" data-aos="zoom-in-up" data-aos-delay="750">
+            <div class="box" data-aos="zoom-in-up" data-aos-delay="150">
                 <i class="fas fa-glass-cheers"></i>
                 <h3>2 salões de Eventos</h3>
             </div>
 
-            <div class="box" data-aos="zoom-in-up" data-aos-delay="750">
+            <div class="box" data-aos="zoom-in-up" data-aos-delay="150">
                 <i class="fas fa-table-tennis"></i>
                 <h3>1 Quadra de Tênis</h3>
             </div>
@@ -276,7 +276,7 @@
 
     <div class="banner">
 
-        <div class="content" data-aos="zoom-in-up" data-aos-delay="300">
+        <div class="content">
             <h3>Seja um Associado do Clube</h3>
             <span>Qualidade de vida para você e sua família.</span>
             <p>Venha nos fazer uma visita e conheça! Oferecemos diversos passes, é só escolher o que melhor combina para
@@ -307,12 +307,12 @@
                 </div>
             </div>
 
-            <div class="box" data-aos="fade-up" data-aos-delay="450">
+            <div class="box" data-aos="fade-up" data-aos-delay="150">
                 <h3>Contato</h3>
                 <p> <i class="fas fa-map"></i> Avenida Juscelino Kubitscheck, nº 1050, Jardim Brasil - Frutal, Minas
                     Gerais </p>
                 <p> <i class="fas fa-phone"></i> +55 34 3423-6868 </p>
-                <p> <i class="fas fa-envelope"></i> contato@recanto.com.br </p>
+                <p> <i class="fas fa-envelope"></i> contato@cluberecanto.com.br </p>
                 <p> <i class="fas fa-clock"></i> Estamos abertos das 08:00 às 22:00 horas</p>
             </div>
 

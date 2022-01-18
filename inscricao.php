@@ -33,34 +33,34 @@
         <a data-aos="zoom-in-left" data-aos-delay="150" href="#" class="logo">Clube Recanto</a>
 
         <nav class="navbar">
-            <a data-aos="zoom-in-left" data-aos-delay="450" href="#about">Início</a>
-            <a data-aos="zoom-in-left" data-aos-delay="600" href="#destination">Eventos</a>
-            <a data-aos="zoom-in-left" data-aos-delay="750" href="#services">Experiências</a>
-            <a data-aos="zoom-in-left" data-aos-delay="750" href="#review">Nossos Sócios</a>
+            <a data-aos="zoom-in-left" data-aos-delay="150" href="index.php">Início</a>
+            <a data-aos="zoom-in-left" data-aos-delay="150" href="index.php">Eventos</a>
+            <a data-aos="zoom-in-left" data-aos-delay="150" href="index.php">Experiências</a>
+            <a data-aos="zoom-in-left" data-aos-delay="150" href="index.php">Nossos Sócios</a>
         </nav>
 
-        <a data-aos="zoom-in-left" data-aos-delay="1050" href="#book-form" class="btn">Associado</a>
+        <a data-aos="zoom-in-left" data-aos-delay="150" href="#book-form" class="btn">Associado</a>
 
     </header>
     <!-- header section ends -->
-
+    <section class="about" id="about"><br></section>
     <!-- booking form section starts  -->
     <section class="book-form" id="book-form">
 
-        <form action="">
-            <div data-aos="zoom-in" data-aos-delay="150" class="inputBox">
+        <form data-aos="zoom-in" data-aos-delay="150" action="">
+            <div class="inputBox">
                 <span>Quem é você?</span>
                 <input type="text" placeholder="escreve o seu nome completo" value="">
             </div>
-            <div data-aos="zoom-in" data-aos-delay="300" class="inputBox">
-                <span>Sua Data de Nascimnto</span>
+            <div class="inputBox">
+                <span>O seu passe será para quantas pessoas?</span>
+                <input type="number" placeholder="número de sócios" value="">
+            </div>
+            <div class="inputBox">
+                <span>Sua Data de Nascimento</span>
                 <input type="date" value="">
             </div>
-            <div data-aos="zoom-in" data-aos-delay="450" class="inputBox">
-                <span>O seu passe será para quantas pessoas?</span>
-                <input type="number" placeholder="n´mero de sócios" value="">
-            </div>
-            <input data-aos="zoom-in" data-aos-delay="600" type="submit" value="Encontrar perfil" class="btn">
+            <input type="submit" value="Encontrar perfil" class="btn">
         </form>
 
     </section>
@@ -90,7 +90,7 @@
                 <p> <i class="fas fa-map"></i> Avenida Juscelino Kubitscheck, nº 1050, Jardim Brasil - Frutal, Minas
                     Gerais </p>
                 <p> <i class="fas fa-phone"></i> +55 34 3423-6868 </p>
-                <p> <i class="fas fa-envelope"></i> contato@recanto.com.br </p>
+                <p> <i class="fas fa-envelope"></i> contato@cluberecanto.com.br </p>
                 <p> <i class="fas fa-clock"></i> Estamos abertos das 08:00 às 22:00 horas</p>
             </div>
 
