@@ -90,7 +90,7 @@ section {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  padding: 1.5rem 9%;
+  padding: 1.0rem 9%;
 }
 
 .header .navbar a {
@@ -354,6 +354,11 @@ section {
 
 .destination .box-container .box .content a i {
   padding-right: .5rem;
+}
+
+.destination .box-container .box .content span {
+  color: #29d9d5;
+  font-size: 1rem;
 }
 
 .services .box-container {

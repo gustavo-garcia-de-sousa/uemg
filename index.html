@@ -5,17 +5,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Recanto dos Boleiros</title>
-
-    <!-- favicon -->
-    <link rel="shortcut icon" type="image/png" href="images/favicon.png">
+    <title>Clube dos Contadores</title>
 
     <!-- font awesome cdn link  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
 
     <!-- custom css file link  -->
     <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
 
     <!-- custom js file link  -->
     <script src="js/script.js" defer></script>
@@ -25,45 +23,49 @@
 <body>
 
     <!-- header section starts  -->
-
     <header class="header">
 
+        <div id="menu-btn" class="fas fa-bars"></div>
 
-        <!-- logo -->
-        <a data-aos="zoom-in-left" data-aos-delay="150" href="#" class="logo"><img src="/images/favicon.png" alt="">
-            RECANTO</a>
-        <!-- logo -->
+        <a data-aos="zoom-in-left" data-aos-delay="150" href="#" class="logo"> <i class="fas fa-paper-plane"></i>travel
+        </a>
 
         <nav class="navbar">
-            <a data-aos="zoom-in-left" data-aos-delay="300" href="#home">INICIO</a>
-            <a data-aos="zoom-in-left" data-aos-delay="450" href="#services">SERVIÇOS</a>
-            <a data-aos="zoom-in-left" data-aos-delay="600" href="#about">SOBRE NÓS</a>
+            <a data-aos="zoom-in-left" data-aos-delay="300" href="#home">Inicio</a>
+            <a data-aos="zoom-in-left" data-aos-delay="450" href="#about">Sobre nós</a>
+            <a data-aos="zoom-in-left" data-aos-delay="600" href="#destination">Serviços</a>
+            <a data-aos="zoom-in-left" data-aos-delay="750" href="#services">services</a>
         </nav>
 
-        <a data-aos="zoom-in-left" data-aos-delay="750" href="#book-form" class="btn">ENTRAR</a>
+        <a data-aos="zoom-in-left" data-aos-delay="1300" href="#book-form" class="btn">book now</a>
 
     </header>
-
     <!-- header section ends -->
 
     <!-- home section starts  -->
+    <section class="about" id="about">
 
-    <section class="home" id="home">
+        <div class="video-container" data-aos="fade-right" data-aos-delay="300">
+            <video src="images/about-vid-1.mp4" muted autoplay loop class="video"></video>
+            <div class="controls">
+                <span class="control-btn" data-src="images/about-vid-1.mp4"></span>
+                <span class="control-btn" data-src="images/about-vid-2.mp4"></span>
+                <span class="control-btn" data-src="images/about-vid-3.mp4"></span>
+            </div>
+        </div>
 
-        <div class="content">
-            <span data-aos="fade-up" data-aos-delay="750">Agende um horário. Estamos abertos:</span>
-            <h3 data-aos="fade-up" data-aos-delay="900">das 08:00 às 11:00 e das 13:00 22:00</h3>
-            <p data-aos="fade-up" data-aos-delay="1050">Os horários acima descritos podem sofrer alterações sem aviso
-                prévio.</p>
-            <a data-aos="fade-up" data-aos-delay="1200" href="#" class="btn">Saiba mais</a>
+        <div class="content" data-aos="fade-left" data-aos-delay="600">
+            <h3>Nature's Majesty Awaits You</h3>
+            <span>why choose us?</span>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde fugit repellat error deserunt nam aperiam
+                odit libero quos provident. Nostrum?</p>
+            <a href="#" class="btn">read more</a>
         </div>
 
     </section>
-
     <!-- home section ends -->
 
     <!-- booking form section starts  -->
-
     <section class="book-form" id="book-form">
 
         <form action="">
@@ -83,79 +85,151 @@
         </form>
 
     </section>
-
     <!-- booking form section ends -->
 
     <!-- about section starts  -->
+    <section class="home" id="home">
 
-    <section class="about" id="about">
-
-        <div class="video-container" data-aos="fade-right" data-aos-delay="300">
-            <video src="images/about-vid-1.mp4" muted autoplay loop class="video"></video>
-            <div class="controls">
-                <span class="control-btn" data-src="images/about-vid-1.mp4"></span>
-                <span class="control-btn" data-src="images/about-vid-2.mp4"></span>
-                <span class="control-btn" data-src="images/about-vid-3.mp4"></span>
-            </div>
-        </div>
-
-        <div class="content" data-aos="fade-left" data-aos-delay="600">
-            <span>why choose us?</span>
-            <h3>Nature's Majesty Awaits You</h3>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde fugit repellat error deserunt nam aperiam
-                odit libero quos provident. Nostrum?</p>
-            <a href="#" class="btn">read more</a>
+        <div class="content">
+            <span data-aos="fade-up" data-aos-delay="150">follow us</span>
+            <h3 data-aos="fade-up" data-aos-delay="300">to the unknown</h3>
+            <p data-aos="fade-up" data-aos-delay="450">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Necessitatibus quia illum quod perspiciatis harum in possimus? Totam consequuntur officia quia?</p>
+            <a data-aos="fade-up" data-aos-delay="600" href="#" class="btn">book now</a>
         </div>
 
     </section>
-
     <!-- about section ends -->
 
-    <!-- services section starts  -->
+    <!-- destination section starts  -->
+    <section class="destination" id="destination">
 
+        <div class="heading">
+            <h1>Eventos no Clube</h1>
+        </div>
+
+        <div class="box-container">
+
+            <div class="box" data-aos="fade-up" data-aos-delay="300">
+                <div class="image">
+                    <img src="images/blog-1.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>1º Torneio de Voleibol</h3>
+                    <span>(VAGAS LIMITADAS)</span>
+                    <p>Após reestruturação do espaço de Voleibol, nos solidarizamos a emprestar o espaço às disputas
+                        Municipais. O evento acontecerá no dia 06 de Fevereiro às 08:00 entre as equipes inscritas. O
+                        acesso estará liberado ao público durante os jogos.</p>
+                    <a href="#">Saiba mais <i class="fas fa-angle-right"></i></a>
+                </div>
+            </div>
+
+            <div class="box" data-aos="fade-up" data-aos-delay="450">
+                <div class="image">
+                    <img src="images/blog-2.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Inauguração Espaço de Tênis</h3>
+                    <span><br></span>
+                    <p>Já começamos o ano de 2022 com o pé direito. No dia 10 de Fevereiro será inaugurado o primeiro
+                        espaço de tênis dentro do Clube. Convidamos todos os sócios para prestigiar esta inauguração. A
+                        fita será cortada às 18:00 horas.</p>
+                    <a href="#">Saiba mais <i class="fas fa-angle-right"></i></a>
+                </div>
+            </div>
+
+            <div class="box" data-aos="fade-up" data-aos-delay="600">
+                <div class="image">
+                    <img src="images/blog-3.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Esporte entre amigos</h3>
+                    <span>(INGRESSO: 1 KG de Alimento não perecível)</span>
+                    <p>No dia 20 de Fevereiro, acontecerá o 9º Futebol entre amigos. As entidades beneficiárias
+                        deste ano serão o CENTRO EDUCACIONAL PEQUENINOS DE JESUS e CASA DA CRIANÇA. Aberto ao público
+                        das 08:00 às 17:00 horas.</p>
+                    <a href="#">Saiba mais <i class="fas fa-angle-right"></i></a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <!-- destination section ends -->
+
+    <!-- services section starts  -->
     <section class="services" id="services">
 
         <div class="heading">
-            <span>our services</span>
-            <h1>countless expericences</h1>
+            <h1>Experiências</h1>
+            <span>nossos serviços</span>
         </div>
 
         <div class="box-container">
 
             <div class="box" data-aos="zoom-in-up" data-aos-delay="150">
-                <i class="fas fa-globe"></i>
-                <h3>worldwide</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam, cumque.</p>
+                <i class="fas fa-utensils"></i>
+                <h3>Restaurantes</h3>
+            </div>
+
+            <div class="box" data-aos="zoom-in-up" data-aos-delay="200">
+                <i class="fas fa-hotel"></i>
+                <h3>Hospedagens</h3>
+            </div>
+
+            <div class="box" data-aos="zoom-in-up" data-aos-delay="250">
+                <i class="fas fa-campground"></i>
+                <h3>Camping</h3>
             </div>
 
             <div class="box" data-aos="zoom-in-up" data-aos-delay="300">
-                <i class="fas fa-hiking"></i>
-                <h3>adventures</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam, cumque.</p>
+                <i class="fas fa-hot-tub"></i>
+                <h3>2 Saunas Masculinas e Femininas</h3>
+            </div>
+
+            <div class="box" data-aos="zoom-in-up" data-aos-delay="350">
+                <i class="fas fa-fish"></i>
+                <h3>Lago de Pesca Esportiva</h3>
+            </div>
+
+            <div class="box" data-aos="zoom-in-up" data-aos-delay="400">
+                <i class="fas fa-biking"></i>
+                <h3>Trilhas de Bike</h3>
             </div>
 
             <div class="box" data-aos="zoom-in-up" data-aos-delay="450">
-                <i class="fas fa-utensils"></i>
-                <h3>food & drinks</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam, cumque.</p>
+                <i class="fas fa-swimmer"></i>
+                <h3>3 piscinas</h3>
+            </div>
+
+            <div class="box" data-aos="zoom-in-up" data-aos-delay="500">
+                <i class="fas fa-futbol"></i>
+                <h3>4 Campos de Futebol</h3>
+            </div>
+
+            <div class="box" data-aos="zoom-in-up" data-aos-delay="550">
+                <i class="fas fa-basketball-ball"></i>
+                <h3>2 Quadras de Basquete</h3>
             </div>
 
             <div class="box" data-aos="zoom-in-up" data-aos-delay="600">
-                <i class="fas fa-hotel"></i>
-                <h3>affordable hotels</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam, cumque.</p>
+                <i class="fas fa-dumbbell"></i>
+                <h3>Academia</h3>
+            </div>
+
+            <div class="box" data-aos="zoom-in-up" data-aos-delay="650">
+                <i class="fas fa-volleyball-ball"></i>
+                <h3>3 Quadras de Voleibol</h3>
+            </div>
+
+            <div class="box" data-aos="zoom-in-up" data-aos-delay="700">
+                <i class="fas fa-bullseye"></i>
+                <h3>Tiro ao Alvo (Padrão Olímpico)</h3>
             </div>
 
             <div class="box" data-aos="zoom-in-up" data-aos-delay="750">
-                <i class="fas fa-wallet"></i>
-                <h3>affordable price</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam, cumque.</p>
-            </div>
-
-            <div class="box" data-aos="zoom-in-up" data-aos-delay="900">
-                <i class="fas fa-headset"></i>
-                <h3>24/7 support</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam, cumque.</p>
+                <i class="fas fa-table-tennis"></i>
+                <h3>1 Quadra de Tênis</h3>
             </div>
 
         </div>
@@ -169,11 +243,11 @@
     <div class="banner">
 
         <div class="content" data-aos="zoom-in-up" data-aos-delay="300">
-            <span>start your adventures</span>
-            <h3>Let's Explore This World</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum voluptatum praesentium amet quibusdam quam
-                officia suscipit odio.</p>
-            <a href="#book-form" class="btn">book now</a>
+            <h3>Seja um Associado do Clube</h3>
+            <span>Qualidade de vida para você e sua família.</span>
+            <p>Venha nos fazer uma visita e conheça! Oferecemos diversos passes, é só escolher o que melhor combina para
+                você!</p>
+            <a href="#book-form" class="btn">Agendar Visita</a>
         </div>
 
     </div>
@@ -187,7 +261,9 @@
         <div class="box-container">
 
             <div class="box" data-aos="fade-up" data-aos-delay="150">
-                <a href="#" class="logo">Recanto </a>
+                <a href="#" class="logo">
+                    <h3>Recanto</h3>
+                </a>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, ad?</p>
                 <div class="share">
                     <a href="#" class="fab fa-facebook-f"></a>
