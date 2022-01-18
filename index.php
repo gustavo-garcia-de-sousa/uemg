@@ -5,7 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Clube dos Contadores</title>
+    <title>Clube Recanto</title>
+
+    <!-- favicon -->
+    <link rel="shortcut icon" type="image/png" href="images/favicon.ico">
 
     <!-- font awesome cdn link  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
@@ -26,18 +29,17 @@
     <header class="header">
 
         <div id="menu-btn" class="fas fa-bars"></div>
-
-        <a data-aos="zoom-in-left" data-aos-delay="150" href="#" class="logo"> <i class="fas fa-paper-plane"></i>travel
-        </a>
+        <img src="images/favicon.png" alt="">
+        <a data-aos="zoom-in-left" data-aos-delay="150" href="#" class="logo">Clube Recanto</a>
 
         <nav class="navbar">
-            <a data-aos="zoom-in-left" data-aos-delay="300" href="#home">Inicio</a>
-            <a data-aos="zoom-in-left" data-aos-delay="450" href="#about">Sobre nós</a>
-            <a data-aos="zoom-in-left" data-aos-delay="600" href="#destination">Serviços</a>
-            <a data-aos="zoom-in-left" data-aos-delay="750" href="#services">services</a>
+            <a data-aos="zoom-in-left" data-aos-delay="450" href="#about">Início</a>
+            <a data-aos="zoom-in-left" data-aos-delay="600" href="#destination">Eventos</a>
+            <a data-aos="zoom-in-left" data-aos-delay="750" href="#services">Experiências</a>
+            <a data-aos="zoom-in-left" data-aos-delay="750" href="#review">Nossos Sócios</a>
         </nav>
 
-        <a data-aos="zoom-in-left" data-aos-delay="1300" href="#book-form" class="btn">book now</a>
+        <a data-aos="zoom-in-left" data-aos-delay="1050" href="#book-form" class="btn">Associado</a>
 
     </header>
     <!-- header section ends -->
@@ -55,53 +57,17 @@
         </div>
 
         <div class="content" data-aos="fade-left" data-aos-delay="600">
-            <h3>Nature's Majesty Awaits You</h3>
-            <span>why choose us?</span>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde fugit repellat error deserunt nam aperiam
-                odit libero quos provident. Nostrum?</p>
-            <a href="#" class="btn">read more</a>
+            <h3>Um Clube completo em meio à Natureza</h3>
+            <span>Nós estamos abertos todos os dias, das 08:00 às 22:00 horas.</span>
+            <p>Desde 1992 se comprometendo a oferecer as melhores experiências. Torne-se sócio hoje mesmo!<br>
+                Clique no botão <strong>"Se inscrever"</strong> e você será redirecionado para a página do associado, onde indicaremos os melhores passes para o seu perfil!</p><br>
+            <a href="associado-inscricao.php" class="btn">Se inscrever</a>
         </div>
 
     </section>
     <!-- home section ends -->
 
-    <!-- booking form section starts  -->
-    <section class="book-form" id="book-form">
-
-        <form action="">
-            <div data-aos="zoom-in" data-aos-delay="150" class="inputBox">
-                <span>where to?</span>
-                <input type="text" placeholder="place name" value="">
-            </div>
-            <div data-aos="zoom-in" data-aos-delay="300" class="inputBox">
-                <span>when?</span>
-                <input type="date" value="">
-            </div>
-            <div data-aos="zoom-in" data-aos-delay="450" class="inputBox">
-                <span>how many?</span>
-                <input type="number" placeholder="number of travelers" value="">
-            </div>
-            <input data-aos="zoom-in" data-aos-delay="600" type="submit" value="find now" class="btn">
-        </form>
-
-    </section>
-    <!-- booking form section ends -->
-
-    <!-- about section starts  -->
-    <section class="home" id="home">
-
-        <div class="content">
-            <span data-aos="fade-up" data-aos-delay="150">follow us</span>
-            <h3 data-aos="fade-up" data-aos-delay="300">to the unknown</h3>
-            <p data-aos="fade-up" data-aos-delay="450">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Necessitatibus quia illum quod perspiciatis harum in possimus? Totam consequuntur officia quia?</p>
-            <a data-aos="fade-up" data-aos-delay="600" href="#" class="btn">book now</a>
-        </div>
-
-    </section>
-    <!-- about section ends -->
-
-    <!-- destination section starts  -->
+    <!-- events section starts  -->
     <section class="destination" id="destination">
 
         <div class="heading">
@@ -110,7 +76,7 @@
 
         <div class="box-container">
 
-            <div class="box" data-aos="fade-up" data-aos-delay="300">
+            <div class="box" data-aos="fade-up" data-aos-delay="150">
                 <div class="image">
                     <img src="images/blog-1.jpg" alt="">
                 </div>
@@ -124,7 +90,7 @@
                 </div>
             </div>
 
-            <div class="box" data-aos="fade-up" data-aos-delay="450">
+            <div class="box" data-aos="fade-up" data-aos-delay="300">
                 <div class="image">
                     <img src="images/blog-2.jpg" alt="">
                 </div>
@@ -138,7 +104,7 @@
                 </div>
             </div>
 
-            <div class="box" data-aos="fade-up" data-aos-delay="600">
+            <div class="box" data-aos="fade-up" data-aos-delay="450">
                 <div class="image">
                     <img src="images/blog-3.jpg" alt="">
                 </div>
@@ -155,7 +121,7 @@
         </div>
 
     </section>
-    <!-- destination section ends -->
+    <!-- events section ends -->
 
     <!-- services section starts  -->
     <section class="services" id="services">
@@ -172,12 +138,12 @@
                 <h3>Restaurantes</h3>
             </div>
 
-            <div class="box" data-aos="zoom-in-up" data-aos-delay="200">
+            <div class="box" data-aos="zoom-in-up" data-aos-delay="150">
                 <i class="fas fa-hotel"></i>
                 <h3>Hospedagens</h3>
             </div>
 
-            <div class="box" data-aos="zoom-in-up" data-aos-delay="250">
+            <div class="box" data-aos="zoom-in-up" data-aos-delay="150">
                 <i class="fas fa-campground"></i>
                 <h3>Camping</h3>
             </div>
@@ -187,12 +153,12 @@
                 <h3>2 Saunas Masculinas e Femininas</h3>
             </div>
 
-            <div class="box" data-aos="zoom-in-up" data-aos-delay="350">
+            <div class="box" data-aos="zoom-in-up" data-aos-delay="300">
                 <i class="fas fa-fish"></i>
                 <h3>Lago de Pesca Esportiva</h3>
             </div>
 
-            <div class="box" data-aos="zoom-in-up" data-aos-delay="400">
+            <div class="box" data-aos="zoom-in-up" data-aos-delay="300">
                 <i class="fas fa-biking"></i>
                 <h3>Trilhas de Bike</h3>
             </div>
@@ -202,12 +168,12 @@
                 <h3>3 piscinas</h3>
             </div>
 
-            <div class="box" data-aos="zoom-in-up" data-aos-delay="500">
+            <div class="box" data-aos="zoom-in-up" data-aos-delay="450">
                 <i class="fas fa-futbol"></i>
                 <h3>4 Campos de Futebol</h3>
             </div>
 
-            <div class="box" data-aos="zoom-in-up" data-aos-delay="550">
+            <div class="box" data-aos="zoom-in-up" data-aos-delay="450">
                 <i class="fas fa-basketball-ball"></i>
                 <h3>2 Quadras de Basquete</h3>
             </div>
@@ -217,14 +183,19 @@
                 <h3>Academia</h3>
             </div>
 
-            <div class="box" data-aos="zoom-in-up" data-aos-delay="650">
+            <div class="box" data-aos="zoom-in-up" data-aos-delay="600">
                 <i class="fas fa-volleyball-ball"></i>
                 <h3>3 Quadras de Voleibol</h3>
             </div>
 
-            <div class="box" data-aos="zoom-in-up" data-aos-delay="700">
+            <div class="box" data-aos="zoom-in-up" data-aos-delay="600">
                 <i class="fas fa-bullseye"></i>
                 <h3>Tiro ao Alvo (Padrão Olímpico)</h3>
+            </div>
+
+            <div class="box" data-aos="zoom-in-up" data-aos-delay="750">
+                <i class="fas fa-glass-cheers"></i>
+                <h3>2 salões de Eventos</h3>
             </div>
 
             <div class="box" data-aos="zoom-in-up" data-aos-delay="750">
@@ -235,8 +206,71 @@
         </div>
 
     </section>
-
     <!-- services section ends -->
+
+    <!-- review section starts  -->
+    <section class="review" id="review">
+
+        <div class="content" data-aos="fade-right" data-aos-delay="150">
+            <h3>Os sócios Amam o nosso Clube!</h3>
+            <span>veja o que eles escreveram...</span>
+        </div>
+
+        <div class="box-container" data-aos="fade-left" data-aos-delay="150">
+
+            <div class="box">
+                <p>"Eu me tornei fã do Clube desde a primeira vez que o visitei. Foi amor a primeira vista! Logo
+                    procurei saber como eu podia me tornar sócio." </p>
+                <div class="user">
+                    <img src="images/pic-1.png" alt="">
+                    <div class="info">
+                        <h3>Steven Santos</h3>
+                        <strong><span>sócio desde 2013</span></strong>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <p>"Eu passo boa parte da minha semana neste lugar, já que o trabalho em home-office permite isso. O
+                    contato com o verde e a paz que isso me proporciona é impágavel."</p>
+                <div class="user">
+                    <img src="images/pic-2.png" alt="">
+                    <div class="info">
+                        <h3>Natasha Prado</h3>
+                        <strong><span>sócia desde 2009</span></strong>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <p>"Eu me sinto lisonjeado por ser sócio há mais de 20 anos. Eu conheço toda a equipe da
+                    administração e sei que se depender deles, este Clube sempre chegará mais longe."</p>
+                <div class="user">
+                    <img src="images/pic-3.png" alt="">
+                    <div class="info">
+                        <h3>Bruce Queiroz</h3>
+                        <strong><span>sócio desde 1993</span></strong>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <p>"Eu adquiri o passe de sócio a partir dos meus pais. Este Clube fez parte da minha
+                    infância e será parte na dos meus filhos. Me sinto em uma segunda casa."</p>
+                <div class="user">
+                    <img src="images/pic-4.png" alt="">
+                    <div class="info">
+                        <h3>Paola Cristina</h3>
+                        <strong><span>sócia desde 1997</span></strong>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- review section ends -->
 
     <!-- banner section starts  -->
 
@@ -262,60 +296,41 @@
 
             <div class="box" data-aos="fade-up" data-aos-delay="150">
                 <a href="#" class="logo">
-                    <h3>Recanto</h3>
+                    <h3>Clube Recanto</h3>
                 </a>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, ad?</p>
+                <p>Estamos presentes nas maiores Redes Sociais. Não deixe de nos seguir!</p>
                 <div class="share">
                     <a href="#" class="fab fa-facebook-f"></a>
-                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-tiktok"></a>
                     <a href="#" class="fab fa-instagram"></a>
                     <a href="#" class="fab fa-linkedin"></a>
                 </div>
             </div>
 
-            <div class="box" data-aos="fade-up" data-aos-delay="300">
-                <h3>Links Úteis</h3>
-                <a href="#home" class="links"> <i class="fas fa-arrow-right"></i> Início </a>
-                <a href="#about" class="links"> <i class="fas fa-arrow-right"></i> Sobre nós </a>
-                <a href="#services" class="links"> <i class="fas fa-arrow-right"></i> Serviços </a>
-            </div>
-
             <div class="box" data-aos="fade-up" data-aos-delay="450">
                 <h3>Contato</h3>
-                <p> <i class="fas fa-map"></i> Frutal, Minas Gerais </p>
-                <p> <i class="fas fa-phone"></i> 34 3423-6868 </p>
+                <p> <i class="fas fa-map"></i> Avenida Juscelino Kubitscheck, nº 1050, Jardim Brasil - Frutal, Minas
+                    Gerais </p>
+                <p> <i class="fas fa-phone"></i> +55 34 3423-6868 </p>
                 <p> <i class="fas fa-envelope"></i> contato@recanto.com.br </p>
-                <p> <i class="fas fa-clock"></i> 8:00 - 22:00 </p>
-            </div>
-
-            <div class="box" data-aos="fade-up" data-aos-delay="600">
-                <h3>Newsletter</h3>
-                <p>Se inscreva para receber as últimas notícias</p>
-                <form action="">
-                    <input type="email" name="" placeholder="enter your email" class="email" id="">
-                    <input type="submit" value="subscribe" class="btn">
-                </form>
+                <p> <i class="fas fa-clock"></i> Estamos abertos das 08:00 às 22:00 horas</p>
             </div>
 
         </div>
 
     </section>
 
-    <div class="credit">© Copyright <span>Gustavo Garcia</span> | 2022</div>
-
+    <div class="credit">Feito com <i class="fas fa-heart"></i> por &copy;<span> Clube Recanto</span> | <?php $Year = date("Y");
+                                                                                                        echo $Year; ?></div>
     <!-- footer section ends -->
-
-
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
 
     <script>
-
         AOS.init({
             duration: 800,
             offset: 150,
         });
-
     </script>
 
 </body>

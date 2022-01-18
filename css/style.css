@@ -80,7 +80,7 @@ section {
   left: 0;
   right: 0;
   z-index: 1000;
-  background: #222;
+  background: #282828;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -178,7 +178,7 @@ section {
   width: 80%;
   margin: 1rem auto;
   margin-top: -5rem;
-  background: #222;
+  background: #282828;
   border-radius: 1rem;
   -webkit-box-shadow: 0 0.5rem 1rem rgba(17, 17, 17, 0.3);
   box-shadow: 0 0.5rem 1rem rgba(17, 17, 17, 0.3);
@@ -305,7 +305,7 @@ section {
 .destination .box-container .box {
   border-radius: 1rem;
   overflow: hidden;
-  background: #222;
+  background: #282828;
 }
 
 .destination .box-container .box:hover img {
@@ -370,11 +370,11 @@ section {
 }
 
 .services .box-container .box {
-  background: #222;
+  background: #282828;
   border-radius: 1rem;
   padding: 3rem;
   text-align: center;
-  border: 0.2rem solid #111;
+  border: 0.2rem solid #282828;
 }
 
 .services .box-container .box:hover {
@@ -397,36 +397,6 @@ section {
   font-size: 1.4rem;
   color: #aaa;
   line-height: 2;
-}
-
-.gallery .box-container {
-  -webkit-columns: 3 25rem;
-  columns: 3 25rem;
-  -webkit-column-gap: 1.5rem;
-  column-gap: 1.5rem;
-}
-
-.gallery .box-container .box {
-  margin-bottom: 1rem;
-  -webkit-column-break-inside: avoid;
-  break-inside: avoid;
-}
-
-.gallery .box-container .box img {
-  width: 100%;
-  border-radius: 1rem;
-  margin-bottom: 1rem;
-}
-
-.gallery .box-container .box span {
-  font-size: 1.4rem;
-  color: #aaa;
-}
-
-.gallery .box-container .box h3 {
-  margin-top: .5rem;
-  font-size: 2rem;
-  color: #fff;
 }
 
 .review {
@@ -482,7 +452,7 @@ section {
   flex: 1 1 20rem;
   border-radius: 1rem;
   padding: 2rem;
-  background: #222;
+  background: #282828;
   border: 0.2rem solid #111;
 }
 
@@ -533,7 +503,7 @@ section {
 
 .blogs .box-container .box {
   border-radius: 1rem;
-  background: #222;
+  background: #282828;
   overflow: hidden;
 }
 
@@ -720,7 +690,7 @@ section {
 }
 
 .credit {
-  background: #222;
+  background: #282828;
   text-align: center;
   font-size: 2rem;
   padding: 2rem 1rem;
@@ -728,6 +698,10 @@ section {
 }
 
 .credit span {
+  color: #29d9d5;
+}
+
+.credit i {
   color: #29d9d5;
 }
 
@@ -755,7 +729,7 @@ section {
     top: 99%;
     left: 0;
     right: 0;
-    background: #222;
+    background: #282828;
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
     clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
   }
