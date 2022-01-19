@@ -3,7 +3,7 @@ require_once 'includes/conexao.php';
 require_once 'includes/header.php';
 ?>
 
-<section class="about" id="about"><br></section>
+<section class="sobre" id="sobre"><br><br></section>
 
 <!-- usuario form section starts  -->
 

@@ -4,7 +4,7 @@
 
         <div class="box-container">
 
-            <div class="box" data-aos="fade-up" data-aos-delay="150">
+            <div class="box" data-aos="fade-up">
                 <a href="#" class="logo">
                     <h3>Clube Recanto</h3>
                 </a>
@@ -17,7 +17,7 @@
                 </div>
             </div>
 
-            <div class="box" data-aos="fade-up" data-aos-delay="150">
+            <div class="box" data-aos="fade-up">
                 <h3>Contato</h3>
                 <p> <i class="fas fa-map"></i> Avenida Juscelino Kubitscheck, nº 1050, Jardim Brasil - Frutal, Minas
                     Gerais </p>
