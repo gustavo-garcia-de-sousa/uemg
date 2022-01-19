@@ -320,8 +320,8 @@
 
     </section>
 
-    <div class="credit">Feito com <i class="fas fa-heart"></i> por &copy;<span> Clube Recanto</span> | <?php $Year = date("Y");
-                                                                                                        echo $Year; ?></div>
+    <div class="credit">Feito com <i class="fas fa-heart"></i> por &copy; <a href="https://github.com/gustavo-garcia-de-sousa" target="_blank"><span> Clube Recanto</span></a> | <?php $Year = date("Y");
+                                                                                                                                                                                    echo $Year; ?></div>
     <!-- footer section ends -->
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>

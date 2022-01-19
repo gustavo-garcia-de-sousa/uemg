@@ -49,11 +49,11 @@
 
         <form data-aos="zoom-in" data-aos-delay="150" action="">
             <div class="inputBox">
-                <span>Quem é você?</span>
-                <input type="text" placeholder="escreve o seu nome completo" value="">
+                <span>Qual o seu nome?</span>
+                <input type="text" placeholder="escreva o seu nome completo" value="">
             </div>
             <div class="inputBox">
-                <span>O seu passe será para quantas pessoas?</span>
+                <span>Será para quantas pessoas?</span>
                 <input type="number" placeholder="número de sócios" value="">
             </div>
             <div class="inputBox">
