@@ -36,9 +36,9 @@
         <a data-aos="zoom-in-left" data-aos-delay="150" href="index.php" class="logo">Clube Recanto</a>
 
         <nav class="navbar">
-            <a data-aos="zoom-in-left" data-aos-delay="150" href="index.php#about">Início</a>
-            <a data-aos="zoom-in-left" data-aos-delay="150" href="index.php#destination">Eventos</a>
-            <a data-aos="zoom-in-left" data-aos-delay="150" href="index.php#services">Experiências</a>
+            <a data-aos="zoom-in-left" data-aos-delay="150" href="index.php#sobre">Início</a>
+            <a data-aos="zoom-in-left" data-aos-delay="150" href="index.php#eventos">Eventos</a>
+            <a data-aos="zoom-in-left" data-aos-delay="150" href="index.php#servicos">Experiências</a>
             <a data-aos="zoom-in-left" data-aos-delay="150" href="index.php#review">Nossos Sócios</a>
         </nav>
 

@@ -5,9 +5,9 @@ require_once 'includes/header.php';
 
 <section class="about" id="about"><br></section>
 
-<!-- booking form section starts  -->
+<!-- usuario form section starts  -->
 
-<section class="book-form" id="book-form">
+<section class="usuario-form" id="usuario-form">
 
     <form data-aos="zoom-in" data-aos-delay="150" action="">
         <div class="inputBox">
@@ -27,7 +27,7 @@ require_once 'includes/header.php';
 
 </section>
 
-<!-- booking form section ends -->
+<!-- usuario form section ends -->
 
 <?php
 require_once 'includes/footer.php';

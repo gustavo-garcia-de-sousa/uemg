@@ -3,8 +3,8 @@ require_once 'includes/conexao.php';
 require_once 'includes/header.php';
 ?>
 
-<!-- home section starts  -->
-<section class="about" id="about">
+<!-- inicio section starts  -->
+<section class="sobre" id="sobre">
 
     <div class="video-container" data-aos="fade-right" data-aos-delay="300">
         <video src="images/about-vid-1.mp4" muted autoplay loop class="video"></video>
@@ -15,7 +15,7 @@ require_once 'includes/header.php';
         </div>
     </div>
 
-    <div class="content" data-aos="fade-left" data-aos-delay="600">
+    <div class="conteudo" data-aos="fade-left" data-aos-delay="600">
         <h3>Um Clube completo em meio à Natureza</h3>
         <span>Nós estamos abertos todos os dias, das 08:00 às 22:00 horas.</span>
         <p>Desde 1992 se comprometendo a oferecer as melhores experiências. Torne-se sócio hoje mesmo!<br>
@@ -24,12 +24,12 @@ require_once 'includes/header.php';
     </div>
 
 </section>
-<!-- home section ends -->
+<!-- inicio section ends -->
 
-<!-- events section starts  -->
-<section class="destination" id="destination">
+<!-- eventos section starts  -->
+<section class="eventos" id="eventos">
 
-    <div class="heading">
+    <div class="cabecalho">
         <h1>Eventos no Clube</h1>
     </div>
 
@@ -39,7 +39,7 @@ require_once 'includes/header.php';
             <div class="image">
                 <img src="images/blog-1.jpg" alt="">
             </div>
-            <div class="content">
+            <div class="conteudo">
                 <h3>1º Torneio de Voleibol</h3>
                 <span>(VAGAS LIMITADAS)</span>
                 <p>Após reestruturação do espaço de Voleibol, nos solidarizamos a emprestar o espaço às disputas
@@ -53,7 +53,7 @@ require_once 'includes/header.php';
             <div class="image">
                 <img src="images/blog-2.jpg" alt="">
             </div>
-            <div class="content">
+            <div class="conteudo">
                 <h3>Inauguração Espaço de Tênis</h3>
                 <span><br></span>
                 <p>Já começamos o ano de 2022 com o pé direito. No dia 10 de Fevereiro será inaugurado o primeiro
@@ -67,7 +67,7 @@ require_once 'includes/header.php';
             <div class="image">
                 <img src="images/blog-3.jpg" alt="">
             </div>
-            <div class="content">
+            <div class="conteudo">
                 <h3>Esporte entre amigos</h3>
                 <span>(INGRESSO: 1 KG de Alimento não perecível)</span>
                 <p>No dia 20 de Fevereiro, acontecerá o 9º Futebol entre amigos. As entidades beneficiárias
@@ -80,12 +80,12 @@ require_once 'includes/header.php';
     </div>
 
 </section>
-<!-- events section ends -->
+<!-- eventos section ends -->
 
-<!-- services section starts  -->
-<section class="services" id="services">
+<!-- servicos section starts  -->
+<section class="servicos" id="servicos">
 
-    <div class="heading">
+    <div class="cabecalho">
         <h1>Experiências</h1>
         <span>nossos serviços</span>
     </div>
@@ -165,12 +165,12 @@ require_once 'includes/header.php';
     </div>
 
 </section>
-<!-- services section ends -->
+<!-- servicos section ends -->
 
 <!-- review section starts  -->
 <section class="review" id="review">
 
-    <div class="content" data-aos="fade-right" data-aos-delay="150">
+    <div class="conteudo" data-aos="fade-right" data-aos-delay="150">
         <h3>Os sócios Amam o nosso Clube!</h3>
         <span>veja o que eles escreveram...</span>
     </div>
@@ -235,12 +235,12 @@ require_once 'includes/header.php';
 
 <div class="banner">
 
-    <div class="content">
+    <div class="conteudo">
         <h3>Seja um Associado do Clube</h3>
         <span>Qualidade de vida para você e sua família.</span>
         <p>Venha nos fazer uma visita e conheça! Oferecemos diversos passes, é só escolher o que melhor combina para
             você!</p>
-        <a href="#book-form" class="btn">Agendar Visita</a>
+        <a href="#usuario-form" class="btn">Agendar Visita</a>
     </div>
 
 </div>

@@ -42,17 +42,17 @@ section {
   padding: 3rem 9%;
 }
 
-.heading {
+.cabecalho {
   text-align: center;
   margin-bottom: 2rem;
 }
 
-.heading span {
+.cabecalho span {
   color: #29d9d5;
   font-size: 2rem;
 }
 
-.heading h1 {
+.cabecalho h1 {
   font-size: 4rem;
   color: #fff;
 }
@@ -149,11 +149,11 @@ section {
   padding-bottom: 5rem;
 }
 
-.home .content {
+.home .conteudo {
   text-align: center;
 }
 
-.home .content span {
+.home .conteudo span {
   font-weight: bolder;
   color: transparent;
   -webkit-text-stroke: 0.1rem #fff;
@@ -161,12 +161,12 @@ section {
   display: block;
 }
 
-.home .content h3 {
+.home .conteudo h3 {
   font-size: 2vw;
   color: #fff;
 }
 
-.home .content p {
+.home .conteudo p {
   max-width: 60rem;
   margin: 1rem auto;
   font-size: 1.4rem;
@@ -174,7 +174,7 @@ section {
   line-height: 2;
 }
 
-.book-form {
+.usuario-form {
   width: 80%;
   margin: 1rem auto;
   margin-top: -5rem;
@@ -185,7 +185,7 @@ section {
   padding: 3rem 2rem;
 }
 
-.book-form form {
+.usuario-form form {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -197,18 +197,18 @@ section {
   gap: 1.5rem;
 }
 
-.book-form form .inputBox {
+.usuario-form form .inputBox {
   -webkit-box-flex: 1;
   -ms-flex: 1 1 25rem;
   flex: 1 1 25rem;
 }
 
-.book-form form .inputBox span {
+.usuario-form form .inputBox span {
   font-size: 1.4rem;
   color: #aaa;
 }
 
-.book-form form .inputBox input {
+.usuario-form form .inputBox input {
   width: 100%;
   padding: 1.2rem 1.4rem;
   border-radius: 5rem;
@@ -220,13 +220,13 @@ section {
   margin-top: 1rem;
 }
 
-.book-form form .btn {
+.usuario-form form .btn {
   -webkit-box-flex: 1;
   -ms-flex: 1 1 15rem;
   flex: 1 1 15rem;
 }
 
-.about {
+.sobre {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -239,23 +239,23 @@ section {
   margin-top: 5rem;
 }
 
-.about .video-container {
+.sobre .video-container {
   -webkit-box-flex: 1;
   -ms-flex: 1 1 42rem;
   flex: 1 1 42rem;
 }
 
-.about .video-container video {
+.sobre .video-container video {
   border-radius: 1rem;
   width: 100%;
 }
 
-.about .video-container .controls {
+.sobre .video-container .controls {
   text-align: center;
   padding: 2rem 0;
 }
 
-.about .video-container .controls span {
+.sobre .video-container .controls span {
   display: inline-block;
   height: 2rem;
   width: 2rem;
@@ -265,36 +265,36 @@ section {
   margin: .7rem;
 }
 
-.about .video-container .controls span:hover {
+.sobre .video-container .controls span:hover {
   background: #29d9d5;
 }
 
-.about .content {
+.sobre .conteudo {
   -webkit-box-flex: 1;
   -ms-flex: 1 1 42rem;
   flex: 1 1 42rem;
   margin-bottom: 5rem;
 }
 
-.about .content span {
+.sobre .conteudo span {
   color: #29d9d5;
   font-size: 2rem;
 }
 
-.about .content h3 {
+.sobre .conteudo h3 {
   color: #fff;
   font-size: 4rem;
   margin-top: .5rem;
 }
 
-.about .content p {
+.sobre .conteudo p {
   padding: 1rem 0;
   font-size: 1.4rem;
   color: #aaa;
   line-height: 2;
 }
 
-.destination .box-container {
+.eventos .box-container {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (minmax(27rem, 1fr))[auto-fit];
@@ -302,66 +302,66 @@ section {
   gap: 1.5rem;
 }
 
-.destination .box-container .box {
+.eventos .box-container .box {
   border-radius: 1rem;
   overflow: hidden;
   background: #282828;
 }
 
-.destination .box-container .box:hover img {
+.eventos .box-container .box:hover img {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
 
-.destination .box-container .box .image {
+.eventos .box-container .box .image {
   height: 20rem;
   overflow: hidden;
   width: 100%;
 }
 
-.destination .box-container .box .image img {
+.eventos .box-container .box .image img {
   height: 100%;
   width: 100%;
   -o-object-fit: cover;
   object-fit: cover;
 }
 
-.destination .box-container .box .content {
+.eventos .box-container .box .conteudo {
   padding: 2rem;
   text-align: center;
 }
 
-.destination .box-container .box .content h3 {
+.eventos .box-container .box .conteudo h3 {
   font-size: 2rem;
   color: #fff;
 }
 
-.destination .box-container .box .content p {
+.eventos .box-container .box .conteudo p {
   padding: 1rem 0;
   font-size: 1.4rem;
   color: #aaa;
   line-height: 2;
 }
 
-.destination .box-container .box .content a {
+.eventos .box-container .box .conteudo a {
   font-size: 1.7rem;
   color: #29d9d5;
 }
 
-.destination .box-container .box .content a:hover i {
+.eventos .box-container .box .conteudo a:hover i {
   padding-left: 1rem;
 }
 
-.destination .box-container .box .content a i {
+.eventos .box-container .box .conteudo a i {
   padding-right: .5rem;
 }
 
-.destination .box-container .box .content span {
+.eventos .box-container .box .conteudo span {
   color: #29d9d5;
   font-size: 1rem;
 }
 
-.services .box-container {
+.servicos .box-container {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (minmax(32rem, 1fr))[auto-fit];
@@ -369,7 +369,7 @@ section {
   gap: 1.5rem;
 }
 
-.services .box-container .box {
+.servicos .box-container .box {
   background: #282828;
   border-radius: 1rem;
   padding: 3rem;
@@ -377,22 +377,22 @@ section {
   border: 0.2rem solid #282828;
 }
 
-.services .box-container .box:hover {
+.servicos .box-container .box:hover {
   border: 0.2rem solid #29d9d5;
 }
 
-.services .box-container .box i {
+.servicos .box-container .box i {
   font-size: 4rem;
   color: #29d9d5;
   margin-bottom: 2rem;
 }
 
-.services .box-container .box h3 {
+.servicos .box-container .box h3 {
   font-size: 2rem;
   color: #fff;
 }
 
-.services .box-container .box p {
+.servicos .box-container .box p {
   padding: 1rem 0;
   font-size: 1.4rem;
   color: #aaa;
@@ -411,23 +411,23 @@ section {
   gap: 2rem;
 }
 
-.review .content {
+.review .conteudo {
   -webkit-box-flex: 1;
   -ms-flex: 1 1 42rem;
   flex: 1 1 42rem;
 }
 
-.review .content span {
+.review .conteudo span {
   font-size: 2rem;
   color: #29d9d5;
 }
 
-.review .content h3 {
+.review .conteudo h3 {
   font-size: 3rem;
   color: #fff;
 }
 
-.review .content p {
+.review .conteudo p {
   font-size: 1.4rem;
   color: #aaa;
   padding: 1rem 0;
@@ -525,27 +525,27 @@ section {
   object-fit: cover;
 }
 
-.blogs .box-container .box .content {
+.blogs .box-container .box .conteudo {
   padding: 2rem;
 }
 
-.blogs .box-container .box .content .link {
+.blogs .box-container .box .conteudo .link {
   font-size: 2rem;
   color: #fff;
 }
 
-.blogs .box-container .box .content .link:hover {
+.blogs .box-container .box .conteudo .link:hover {
   color: #29d9d5;
 }
 
-.blogs .box-container .box .content p {
+.blogs .box-container .box .conteudo p {
   padding: 1rem 0;
   font-size: 1.4rem;
   color: #aaa;
   line-height: 2;
 }
 
-.blogs .box-container .box .content .icon {
+.blogs .box-container .box .conteudo .icon {
   padding-top: 1rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -558,16 +558,16 @@ section {
   justify-content: space-between;
 }
 
-.blogs .box-container .box .content .icon a {
+.blogs .box-container .box .conteudo .icon a {
   font-size: 1.4rem;
   color: #aaa;
 }
 
-.blogs .box-container .box .content .icon a:hover {
+.blogs .box-container .box .conteudo .icon a:hover {
   color: #29d9d5;
 }
 
-.blogs .box-container .box .content .icon a i {
+.blogs .box-container .box .conteudo .icon a i {
   padding-right: .5rem;
   color: #29d9d5;
 }
@@ -582,18 +582,18 @@ section {
   text-align: center;
 }
 
-.banner .content span {
+.banner .conteudo span {
   font-size: 2rem;
   color: #29d9d5;
 }
 
-.banner .content h3 {
+.banner .conteudo h3 {
   font-size: 4rem;
   color: #fff;
   margin-top: 1rem;
 }
 
-.banner .content p {
+.banner .conteudo p {
   max-width: 60rem;
   margin: 1rem auto;
   font-size: 1.4rem;
@@ -753,11 +753,11 @@ section {
     margin-top: 10rem;
   }
 
-  .home .content span {
+  .home .conteudo span {
     font-size: 8vw;
   }
 
-  .home .content h3 {
+  .home .conteudo h3 {
     font-size: 9vw;
   }
 }
@@ -767,11 +767,11 @@ section {
     font-size: 50%;
   }
 
-  .about .content h3 {
+  .sobre .conteudo h3 {
     font-size: 3.5rem;
   }
 
-  .banner .content h3 {
+  .banner .conteudo h3 {
     font-size: 2.7rem;
   }
 }
