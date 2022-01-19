@@ -19,7 +19,7 @@ require_once 'includes/header.php';
         <h3>Um Clube completo em meio à Natureza</h3>
         <span>Nós estamos abertos todos os dias, das 08:00 às 22:00 horas.</span>
         <p>Desde 1992 se comprometendo a oferecer as melhores experiências. Torne-se sócio hoje mesmo!<br>
-            Clique no botão <strong>"Se inscrever"</strong> e você será redirecionado para a página do associado, onde indicaremos os melhores passes para o seu perfil!</p><br>
+            Clique no botão <strong>"Se inscrever"</strong> e você será redirecionado para a página do associado, onde indicaremos os melhores pacotes para o seu perfil!</p><br>
         <a href="inscricao.php" class="btn">Se inscrever</a>
     </div>
 
