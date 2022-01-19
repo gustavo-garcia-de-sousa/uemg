@@ -705,6 +705,10 @@ section {
   color: #29d9d5;
 }
 
+.credit a {
+  color: #29d9d5;
+}
+
 @media (max-width: 991px) {
   html {
     font-size: 55%;
