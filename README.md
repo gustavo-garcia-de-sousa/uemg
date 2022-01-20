@@ -1,2 +1,2 @@
-# impegno
- Desenvolvimento Web destinada às tarefas no Curso Sistemas de Informação, disciplina Programação II.
+# uemg
+ Desenvolvimento Web destinado às tarefas do Curso Sistemas de Informação, disciplina Programação II.
