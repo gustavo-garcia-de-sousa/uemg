@@ -21,7 +21,7 @@ require_once 'includes/header.php';
 <!-- login usuario form section starts  -->
 <section class="usuario-form" id="usuario-form">
 
-    <form autocomplete="off" data-aos="zoom-in" action="">
+    <form autocomplete="off" data-aos="zoom-in" action="login.php" method="post">
         <div class="inputBox">
             <span>E-mail</span>
             <input type="text" placeholder="e-mail cadastrado" value="">

@@ -1,7 +1,5 @@
-<?php
-require_once 'includes/conexao.php';
-require_once 'includes/header.php';
-?>
+<?php require_once 'includes/conexao.php'; ?>
+<?php require_once 'includes/header.php'; ?>
 
 <!-- inicio section starts  -->
 <section class="sobre" id="sobre">
@@ -242,6 +240,4 @@ require_once 'includes/header.php';
 
 <!-- banner section ends -->
 
-<?php
-require_once 'includes/footer.php';
-?>
+<?php require_once 'includes/footer.php'; ?>
