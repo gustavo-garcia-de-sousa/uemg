@@ -30,7 +30,7 @@
 
     </section>
 
-    <div class="credit">Feito com <i class="fas fa-heart"></i> por &copy;<a href="https://github.com/gustavo-garcia-de-sousa" target="blank" <span> Clube Recanto</span></a> | <?php $Year = date("Y");
+    <div class="creditos">Feito com <i class="fas fa-heart"></i> por &copy;<a href="https://github.com/gustavo-garcia-de-sousa" target="blank" <span> Clube Recanto</span></a> | <?php $Year = date("Y");
                                                                                                                                                                                 echo $Year; ?></div>
     <!-- footer section ends -->
 

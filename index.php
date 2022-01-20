@@ -7,20 +7,15 @@ require_once 'includes/header.php';
 <section class="sobre" id="sobre">
 
     <div class="video-container" data-aos="fade-right" data-aos-delay="300">
-        <video src="images/about-vid-1.mp4" muted autoplay loop class="video"></video>
-        <div class="controls">
-            <span class="control-btn" data-src="images/about-vid-1.mp4"></span>
-            <span class="control-btn" data-src="images/about-vid-2.mp4"></span>
-            <span class="control-btn" data-src="images/about-vid-3.mp4"></span>
-        </div>
+        <video src="images/vid-1.mp4" muted autoplay loop class="video"></video>
     </div>
 
     <div class="conteudo" data-aos="fade-left" data-aos-delay="600">
         <h3>Um Clube completo em meio à Natureza</h3>
         <span>Nós estamos abertos todos os dias, das 08:00 às 22:00 horas.</span>
         <p>Desde 1992 se comprometendo a oferecer as melhores experiências. Torne-se sócio hoje mesmo!<br>
-            Clique no botão <strong>"Se inscrever"</strong> e você será redirecionado para a página do associado, onde indicaremos os melhores pacotes para o seu perfil!</p><br>
-        <a href="inscricao.php" class="btn">Se inscrever</a>
+            Clique em <strong>"Tornar-se membro"</strong> e você será redirecionado para a página do associado, onde indicaremos os melhores pacotes para o seu perfil!</p>
+        <a href="inscricao.php" class="btn">Tornar-se membro</a>
     </div>
 
 </section>
@@ -240,7 +235,7 @@ require_once 'includes/header.php';
         <span>Qualidade de vida para você e sua família.</span>
         <p>Venha nos fazer uma visita e conheça! Oferecemos diversos passes, é só escolher o que melhor combina para
             você!</p>
-        <a href="#usuario-form" class="btn">Agendar Visita</a>
+        <a href="agende-visita.php" class="btn">Agendar Visita</a>
     </div>
 
 </div>

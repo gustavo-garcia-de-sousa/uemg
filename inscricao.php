@@ -3,20 +3,31 @@ require_once 'includes/conexao.php';
 require_once 'includes/header.php';
 ?>
 
-<section class="sobre" id="sobre"><br><br></section>
+<!-- apresentacao section starts  -->
+<section></section>
+
+<div class="banner">
+
+    <div class="conteudo">
+        <h3>Descubra o melhor para você!</h3>
+        <span>Vamos encontrar o seu perfil.</span>
+        <br><br><br><br>
+    </div>
+
+</div>
+<!-- apresentacao section ends -->
 
 <!-- usuario form section starts  -->
-
 <section class="usuario-form" id="usuario-form">
 
     <form data-aos="zoom-in" data-aos-delay="150" action="">
         <div class="inputBox">
             <span>Qual o seu nome?</span>
-            <input type="text" placeholder="escreva o seu nome completo" value="">
+            <input type="text" placeholder="escreva o seu primeiro nome" value="">
         </div>
         <div class="inputBox">
             <span>Será para quantas pessoas?</span>
-            <input type="number" placeholder="número de sócios" value="">
+            <input type="number" placeholder="número de beneficiários" value="">
         </div>
         <div class="inputBox">
             <span>Sua Data de Nascimento</span>
@@ -26,7 +37,6 @@ require_once 'includes/header.php';
     </form>
 
 </section>
-
 <!-- usuario form section ends -->
 
 <?php
