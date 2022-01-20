@@ -4,7 +4,7 @@
 
         <div class="box-container">
 
-            <div class="box" data-aos="fade-up">
+            <div class="box">
                 <a href="#" class="logo">
                     <h3>Clube Recanto</h3>
                 </a>
@@ -17,7 +17,7 @@
                 </div>
             </div>
 
-            <div class="box" data-aos="fade-up">
+            <div class="box">
                 <h3>Contato</h3>
                 <p> <i class="fas fa-map"></i> Avenida Juscelino Kubitscheck, nº 1050, Jardim Brasil - Frutal, Minas
                     Gerais </p>
@@ -31,7 +31,7 @@
     </section>
 
     <div class="creditos">Feito com <i class="fas fa-heart"></i> por &copy;<a href="https://github.com/gustavo-garcia-de-sousa" target="blank" <span> Clube Recanto</span></a> | <?php $Year = date("Y");
-                                                                                                                                                                                echo $Year; ?></div>
+                                                                                                                                                                                    echo $Year; ?></div>
     <!-- footer section ends -->
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>

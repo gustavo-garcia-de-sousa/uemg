@@ -522,6 +522,27 @@ section {
   line-height: 2;
 }
 
+.not-found {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(17, 17, 17, 0.7)), to(rgba(17, 17, 17, 0.7))), url(../images/404.png) no-repeat;
+  background: linear-gradient(rgba(17, 17, 17, 0.7), rgba(17, 17, 17, 0.7)), url(../images/404.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 15rem 15rem;
+  background-attachment: fixed;
+  text-align: center;
+}
+
+.not-found .conteudo span {
+  font-size: 2rem;
+  color: #aaa;
+}
+
+.not-found .conteudo h3 {
+  font-size: 4rem;
+  color: #fff;
+  margin-top: 1rem;
+}
+
 .footer .box-container {
   display: -ms-grid;
   display: grid;
@@ -693,6 +714,10 @@ section {
   }
 
   .banner .conteudo h3 {
+    font-size: 3.0rem;
+  }
+
+  .not-found .conteudo h3 {
     font-size: 3.0rem;
   }
 }
