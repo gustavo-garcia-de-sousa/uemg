@@ -1,11 +1,14 @@
 <!--
 Autor: Gustavo Garcia
-Data: 19/01/2022 às 18:50
-Desenvolvimento de site disciplina Programação II
+starts: 19/01/2022
+ends: 01/02/2022
+Desenvolvimento Web na disciplina de Programação II
 
 Adaptado do site: https://ccrc.org.br/institucional/
 Inspiração: Alvorada Praia Clube de Frutal.
 -->
+
+<?php require_once '../src/config/conexao.php'; ?>
 
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -19,7 +22,7 @@ Inspiração: Alvorada Praia Clube de Frutal.
     <title>Clube Recanto</title>
 
     <!-- favicon -->
-    <link rel="shortcut icon" type="image/png" href="images/favicon.ico">
+    <link rel="shortcut icon" type="../assets/images/png" href="../assets/images/favicon.ico">
 
     <!-- font awesome cdn link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
@@ -27,15 +30,14 @@ Inspiração: Alvorada Praia Clube de Frutal.
     <!-- custom css aos cdn link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
 
-    <!-- Bootstrap cdn link -->
+    <!-- bootstrap cdn link -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 
     <!-- custom css file link -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
 
     <!-- custom js file link -->
     <script src="js/script.js" defer></script>
-
 
 </head>
 
@@ -46,7 +48,7 @@ Inspiração: Alvorada Praia Clube de Frutal.
     <header class="header">
 
         <div id="menu-btn" class="fas fa-bars"></div>
-        <img src="images/favicon.png" alt="">
+        <img src="../assets/images/favicon.png" alt="">
         <a data-aos="zoom-in-left" data-aos-delay="150" href="index.php" class="logo">Clube Recanto</a>
 
         <nav class="navbar">

@@ -1,11 +1,10 @@
-<?php require_once 'includes/conexao.php'; ?>
 <?php require_once 'includes/header.php'; ?>
 
 <!-- inicio section starts  -->
 <section class="sobre" id="sobre">
 
     <div class="video-container" data-aos="fade-right" data-aos-delay="300">
-        <video src="images/vid-1.mp4" muted autoplay loop class="video"></video>
+        <video src="assets/videos/vid-1.mp4" muted autoplay loop class="video"></video>
     </div>
 
     <div class="conteudo" data-aos="fade-left" data-aos-delay="600">
@@ -30,7 +29,7 @@
 
         <div class="box" data-aos="fade-up" data-aos-delay="150">
             <div class="image">
-                <img src="images/blog-1.jpg" alt="">
+                <img src="assets/images/blog-1.jpg" alt="">
             </div>
             <div class="conteudo">
                 <h3>1º Torneio de Voleibol</h3>
@@ -44,7 +43,7 @@
 
         <div class="box" data-aos="fade-up" data-aos-delay="150">
             <div class="image">
-                <img src="images/blog-2.jpg" alt="">
+                <img src="assets/images/blog-2.jpg" alt="">
             </div>
             <div class="conteudo">
                 <h3>Inauguração Espaço de Tênis</h3>
@@ -58,7 +57,7 @@
 
         <div class="box" data-aos="fade-up" data-aos-delay="150">
             <div class="image">
-                <img src="images/blog-3.jpg" alt="">
+                <img src="assets/images/blog-3.jpg" alt="">
             </div>
             <div class="conteudo">
                 <h3>Esporte entre amigos</h3>
@@ -174,7 +173,7 @@
             <p>"Eu me tornei fã do Clube desde a primeira vez que o visitei. Foi amor a primeira vista! Logo
                 procurei saber como eu poderia me tornar sócio." </p>
             <div class="user">
-                <img src="images/pic-1.png" alt="">
+                <img src="assets/images/pic-1.png" alt="">
                 <div class="info">
                     <h3>Steven Santos</h3>
                     <strong><span>sócio desde 2013</span></strong>
@@ -186,7 +185,7 @@
             <p>"Eu passo boa parte da minha semana neste lugar, já que o trabalho em home-office permite isso. O
                 contato com o verde e a paz que isso me proporciona é impágavel."</p>
             <div class="user">
-                <img src="images/pic-2.png" alt="">
+                <img src="assets/images/pic-2.png" alt="">
                 <div class="info">
                     <h3>Natasha Prado</h3>
                     <strong><span>sócia desde 2009</span></strong>
@@ -198,7 +197,7 @@
             <p>"Eu me sinto lisonjeado por ser sócio há mais de 20 anos. Eu conheço toda a equipe da
                 administração e sei que se depender deles, este Clube sempre chegará mais longe."</p>
             <div class="user">
-                <img src="images/pic-3.png" alt="">
+                <img src="assets/images/pic-3.png" alt="">
                 <div class="info">
                     <h3>Bruce Queiroz</h3>
                     <strong><span>sócio desde 1993</span></strong>
@@ -210,7 +209,7 @@
             <p>"Eu adquiri o passe de sócio a partir dos meus pais. Este Clube fez parte da minha
                 infância e será parte na dos meus filhos. Este Clube é a minha segunda casa."</p>
             <div class="user">
-                <img src="images/pic-4.png" alt="">
+                <img src="assets/images/pic-4.png" alt="">
                 <div class="info">
                     <h3>Paola Cristina</h3>
                     <strong><span>sócia desde 1997</span></strong>

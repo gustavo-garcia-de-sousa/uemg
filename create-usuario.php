@@ -1,4 +1,3 @@
-<?php require_once 'includes/conexao.php'; ?>
 <?php require_once 'includes/header.php'; ?>
 
 <section></section>

@@ -16,7 +16,7 @@ $dsn_options = [PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION];
 
 try {
     $pdo = new \PDO($sql, $username, $password, $dsn_options);
-    /*echo "Conexão com {$database} realizada com sucesso!";*/
+    /*echo "conexão com {$database} realizada com sucesso!";*/
 } catch (PDOException $error) {
-    echo 'Erro na conexão: ' . $error->getMessage();
+    echo 'erro na conexão: ' . $error->getMessage();
 }
