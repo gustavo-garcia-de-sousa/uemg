@@ -175,7 +175,7 @@ section {
 }
 
 .usuario-form {
-  width: 80%;
+  width: 90%;
   margin: 1rem auto;
   margin-top: -5rem;
   background: #282828;
@@ -203,12 +203,29 @@ section {
   flex: 1 1 25rem;
 }
 
+.usuario-form form h5 {
+  font-size: 4rem;
+  color: #fff;
+}
+
 .usuario-form form .inputBox span {
+  margin-top: 1rem;
   font-size: 1.4rem;
   color: #aaa;
 }
 
 .usuario-form form .inputBox input {
+  width: 100%;
+  padding: 1.2rem 1.4rem;
+  border-radius: 5rem;
+  border: 0.2rem solid #29d9d5;
+  font-size: 1.6rem;
+  color: #aaa;
+  background: none;
+  margin-top: 1rem;
+}
+
+.usuario-form form .inputBox select {
   width: 100%;
   padding: 1.2rem 1.4rem;
   border-radius: 5rem;

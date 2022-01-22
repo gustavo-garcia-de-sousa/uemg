@@ -8,8 +8,6 @@ Adaptado do site: https://ccrc.org.br/institucional/
 Inspiração: Alvorada Praia Clube de Frutal.
 -->
 
-<?php require_once '../src/config/conexao.php'; ?>
-
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -30,14 +28,12 @@ Inspiração: Alvorada Praia Clube de Frutal.
     <!-- custom css aos cdn link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
 
-    <!-- bootstrap cdn link -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 
     <!-- custom css file link -->
-    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/main.css">
 
     <!-- custom js file link -->
-    <script src="js/script.js" defer></script>
+    <script src="../js/main.js" defer></script>
 
 </head>
 
@@ -58,7 +54,7 @@ Inspiração: Alvorada Praia Clube de Frutal.
             <a data-aos="zoom-in-left" data-aos-delay="150" href="index.php#review">Nossos Sócios</a>
         </nav>
 
-        <a data-aos="zoom-in-left" data-aos-delay="150" href="associado.php" class="btn">Associado</a>
+        <a data-aos="zoom-in-left" data-aos-delay="150" href="pages/associado.php" class="btn">Associado</a>
 
     </header>
 

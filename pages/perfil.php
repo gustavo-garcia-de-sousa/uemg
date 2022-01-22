@@ -27,7 +27,7 @@
             <input type="number" placeholder="número de beneficiários" value="" required>
         </div>
         <div class="inputBox">
-            <span>Sua Data de Nascimento</span>
+            <span>Sua Data de Nascimento:</span>
             <input type="date" value="" required>
         </div>
         <input type="submit" value="Encontrar perfil" class="btn">

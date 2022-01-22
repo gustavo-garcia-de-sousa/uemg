@@ -6,8 +6,11 @@ class Usuarios
     private string $nome;
     private string $mail;
     private string $cpf;
+    private string $nascimento;
     private string $cep;
-    private string $logradouro;
+    private string $rua;
+    private string $numero;
+    private string $complemento;
     private string $bairro;
     private string $cidade;
     private string $estado;
@@ -17,8 +20,11 @@ class Usuarios
         string $nome,
         string $mail,
         string $cpf,
+        string $nascimento,
         string $cep,
-        string $logradouro,
+        string $rua,
+        string $numero,
+        string $complemento,
         string $bairro,
         string $cidade,
         string $estado
@@ -27,8 +33,11 @@ class Usuarios
         $this->nome = $nome;
         $this->mail = $mail;
         $this->cpf = $cpf;
+        $this->nascimento = $nascimento;
         $this->cep = $cep;
-        $this->logradouro = $logradouro;
+        $this->rua = $rua;
+        $this->numero = $numero;
+        $this->complemento = $complemento;
         $this->bairro = $bairro;
         $this->cidade = $cidade;
         $this->estado = $estado;
@@ -59,9 +68,19 @@ class Usuarios
         return $this->cep;
     }
 
-    public function logradouro()
+    public function rua()
     {
-        return $this->logradouro;
+        return $this->rua;
+    }
+
+    public function numero()
+    {
+        return $this->numero;
+    }
+
+    public function complemento()
+    {
+        return $this->complemento;
     }
 
     public function bairro()
@@ -77,5 +96,13 @@ class Usuarios
     public function estado()
     {
         return $this->estado;
+    }
+
+    /**
+     * Get the value of nascimento
+     */
+    public function getNascimento()
+    {
+        return $this->nascimento;
     }
 }

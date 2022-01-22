@@ -12,7 +12,7 @@
         <span>Nós estamos abertos todos os dias, das 08:00 às 22:00 horas.</span>
         <p>Desde 1992 se comprometendo a oferecer as melhores experiências. Torne-se sócio hoje mesmo!<br>
             Clique em <strong>"Tornar-se membro"</strong> e você será redirecionado para a página do associado, onde indicaremos os melhores pacotes para o seu perfil!</p>
-        <a href="inscricao.php" class="btn">Tornar-se membro</a>
+        <a href="pages/perfil.php" class="btn">Tornar-se membro</a>
     </div>
 
 </section>

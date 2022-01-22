@@ -1,3 +1,4 @@
+<?php require_once 'src/config/conexao.php'; ?>
 <?php require_once 'includes/header.php'; ?>
 
 <!-- home section starts  -->
