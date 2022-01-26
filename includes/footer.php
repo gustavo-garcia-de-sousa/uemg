@@ -1,19 +1,18 @@
     <!-- footer section starts  -->
-
     <section class="footer">
 
         <div class="box-container">
 
             <div class="box">
-                <a href="#" class="logo">
+                <a href="../pages/nao-encontrada.php" class="logo">
                     <h3>Clube Recanto</h3>
                 </a>
                 <p>Estamos presentes nas maiores Redes Sociais. Não deixe de nos seguir!</p>
                 <div class="share">
-                    <a href="#" class="fab fa-facebook-f"></a>
-                    <a href="#" class="fab fa-tiktok"></a>
-                    <a href="#" class="fab fa-instagram"></a>
-                    <a href="#" class="fab fa-linkedin"></a>
+                    <a href="../pages/nao-encontrada.php" class="fab fa-facebook-f"></a>
+                    <a href="../pages/nao-encontrada.php" class="fab fa-tiktok"></a>
+                    <a href="../pages/nao-encontrada.php" class="fab fa-instagram"></a>
+                    <a href="../pages/nao-encontrada.php" class="fab fa-linkedin"></a>
                 </div>
             </div>
 
@@ -35,7 +34,9 @@
     <!-- footer section ends -->
 
     <!--Scripts-->
-    <script src="js/main.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/inscricao.js"></script>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
 

@@ -1,4 +1,5 @@
-<?php require_once 'includes/header.php'; ?>
+<?php require_once '../src/config/conexao.php' ?>
+<?php require_once '../includes/header.php' ?>
 
 <!-- apresentacao section starts  -->
 <section></section>
@@ -35,5 +36,5 @@
 <!-- login usuario form section ends -->
 
 <?php
-require_once 'includes/footer.php';
+require_once '../includes/footer.php';
 ?>

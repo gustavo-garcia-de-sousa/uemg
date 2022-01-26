@@ -31,9 +31,11 @@ Inspiração: Alvorada Praia Clube de Frutal.
 
     <!-- custom css file link -->
     <link rel="stylesheet" href="../assets/css/main.css">
+    <link rel="stylesheet" href="../assets/css/inscricao.css">
 
     <!-- custom js file link -->
     <script src="../js/main.js" defer></script>
+    <script src="../js/inscricao.js" defer></script>
 
 </head>
 
@@ -45,16 +47,16 @@ Inspiração: Alvorada Praia Clube de Frutal.
 
         <div id="menu-btn" class="fas fa-bars"></div>
         <img src="../assets/images/favicon.png" alt="">
-        <a data-aos="zoom-in-left" data-aos-delay="150" href="index.php" class="logo">Clube Recanto</a>
+        <a data-aos="zoom-in-left" data-aos-delay="150" href="../index.php" class="logo">Clube Recanto</a>
 
         <nav class="navbar">
-            <a data-aos="zoom-in-left" data-aos-delay="150" href="index.php#sobre">Início</a>
-            <a data-aos="zoom-in-left" data-aos-delay="150" href="index.php#eventos">Eventos</a>
-            <a data-aos="zoom-in-left" data-aos-delay="150" href="index.php#servicos">Experiências</a>
-            <a data-aos="zoom-in-left" data-aos-delay="150" href="index.php#review">Nossos Sócios</a>
+            <a data-aos="zoom-in-left" data-aos-delay="150" href="../index.php#sobre">Início</a>
+            <a data-aos="zoom-in-left" data-aos-delay="150" href="../index.php#eventos">Eventos</a>
+            <a data-aos="zoom-in-left" data-aos-delay="150" href="../index.php#servicos">Experiências</a>
+            <a data-aos="zoom-in-left" data-aos-delay="150" href="../index.php#review">Nossos Sócios</a>
         </nav>
 
-        <a data-aos="zoom-in-left" data-aos-delay="150" href="pages/associado.php" class="btn">Associado</a>
+        <a data-aos="zoom-in-left" data-aos-delay="150" href="../pages/associado.php" class="btn">Associado</a>
 
     </header>
 

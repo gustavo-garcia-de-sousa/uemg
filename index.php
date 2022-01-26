@@ -11,8 +11,8 @@
         <h3>Um Clube completo em meio à Natureza</h3>
         <span>Nós estamos abertos todos os dias, das 08:00 às 22:00 horas.</span>
         <p>Desde 1992 se comprometendo a oferecer as melhores experiências. Torne-se sócio hoje mesmo!<br>
-            Clique em <strong>"Tornar-se membro"</strong> e você será redirecionado para a página do associado, onde indicaremos os melhores pacotes para o seu perfil!</p>
-        <a href="pages/perfil.php" class="btn">Tornar-se membro</a>
+            Clique em <strong>"Tornar-se membro"</strong> e você será redirecionado para a página de inscrição.</p>
+        <a href="pages/inscricao.php" class="btn">Tornar-se membro</a>
     </div>
 
 </section>
@@ -37,7 +37,7 @@
                 <p>Após reestruturação do espaço de Voleibol, nos solidarizamos a emprestar o espaço às disputas
                     Municipais. O evento acontecerá no dia 06 de Fevereiro às 08:00 entre as equipes inscritas. O
                     acesso estará liberado ao público durante os jogos.</p>
-                <a href="#">Saiba mais <i class="fas fa-angle-right"></i></a>
+                <a href="../pages/nao-encontrada.php">Saiba mais <i class="fas fa-angle-right"></i></a>
             </div>
         </div>
 
@@ -51,7 +51,7 @@
                 <p>Já começamos o ano de 2022 com o pé direito. No dia 10 de Fevereiro será inaugurado o primeiro
                     espaço de tênis dentro do Clube. Convidamos todos os sócios para prestigiar esta inauguração. A
                     fita será cortada às 18:00 horas.</p>
-                <a href="#">Saiba mais <i class="fas fa-angle-right"></i></a>
+                <a href="../pages/nao-encontrada.php">Saiba mais <i class="fas fa-angle-right"></i></a>
             </div>
         </div>
 
@@ -65,7 +65,7 @@
                 <p>No dia 20 de Fevereiro, acontecerá o 9º Futebol entre amigos. As entidades beneficiárias
                     deste ano serão o CENTRO EDUCACIONAL PEQUENINOS DE JESUS e CASA DA CRIANÇA. Aberto ao público
                     das 08:00 às 17:00 horas.</p>
-                <a href="#">Saiba mais <i class="fas fa-angle-right"></i></a>
+                <a href="../pages/nao-encontrada.php">Saiba mais <i class="fas fa-angle-right"></i></a>
             </div>
         </div>
 
@@ -232,7 +232,7 @@
         <span>Qualidade de vida para você e sua família.</span>
         <p>Venha nos fazer uma visita e conheça! Oferecemos diversos passes, é só escolher o que melhor combina para
             você!</p>
-        <a href="agende-visita.php" class="btn">Agendar Visita</a>
+        <a href="../pages/nao-encontrada.php" class="btn">Agendar Visita</a>
     </div>
 
 </div>
