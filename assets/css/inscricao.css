@@ -1,5 +1,8 @@
 :root {
     --primary-color: #29d9d5;
+    --bg-color: #130f0d;
+    --text-color: #f0f0f5;
+    --light-color: rgba(255, 255, 255, 0.04);
 }
 
 *,
@@ -152,4 +155,23 @@
     color: #f3f3f3;
     text-align: center;
     transition: 0.3s;
+}
+
+input:focus~span,
+input:valid~span {
+    transform: translateY(-24px);
+    font-size: 0.8em;
+    letter-spacing: 0.1em;
+}
+
+
+.input span.error {
+    display: flex;
+    padding: 0;
+    background-color: rgba(255, 0, 0, 0.2);
+}
+
+.input span.error.active {
+    border: 1px solid red;
+    padding: 0.4em;
 }

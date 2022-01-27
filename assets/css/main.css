@@ -225,7 +225,33 @@ section {
   margin-top: 1rem;
 }
 
-.usuario-form form .inputBox select {
+.usuario-form form .btn {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 15rem;
+  flex: 1 1 15rem;
+}
+
+.input-group input:focus {
+  border-color: #20b2aa;
+}
+
+.input-group input::placeholder {
+  color: #686868;
+  font-weight: 300;
+}
+
+button {
+  width: 100%;
+  padding: 1.2rem 1.4rem;
+  border-radius: 5rem;
+  border: 0.2rem solid #29d9d5;
+  font-size: 1.6rem;
+  color: #aaa;
+  background: none;
+  margin-top: 1rem;
+}
+
+select {
   width: 100%;
   padding: 1.2rem 1.4rem;
   border-radius: 5rem;
@@ -235,12 +261,6 @@ section {
   text-transform: none;
   background: none;
   margin-top: 1rem;
-}
-
-.usuario-form form .btn {
-  -webkit-box-flex: 1;
-  -ms-flex: 1 1 15rem;
-  flex: 1 1 15rem;
 }
 
 .sobre {
@@ -544,17 +564,16 @@ section {
   background: linear-gradient(rgba(17, 17, 17, 0.7), rgba(17, 17, 17, 0.7)), url(../images/404.png) no-repeat;
   background-size: cover;
   background-position: center;
-  padding: 15rem 15rem;
   background-attachment: fixed;
   text-align: center;
 }
 
-.not-found .conteudo span {
+.not-found span {
   font-size: 2rem;
   color: #aaa;
 }
 
-.not-found .conteudo h3 {
+.not-found h3 {
   font-size: 4rem;
   color: #fff;
   margin-top: 1rem;
