@@ -1,5 +1,5 @@
 <?php require_once '../includes/header.php'; ?>
-
+<?php require_once '../src/config/conexao.php'; ?>
 
 <section class="not-found">
 

@@ -45,9 +45,8 @@ function updateProgressbar() {
   progress.style.width =
     ((progressActive.length - 1) / (progressSteps.length - 1)) * 100 + "%";
 }
+/*
 
-
-/** */
 const fields = document.querySelectorAll("[required]")
 
 function ValidateField(field) {
@@ -143,4 +142,4 @@ document.querySelector("form")
 
     // não vai enviar o formulário
     event.preventDefault()
-  })
+  })*/

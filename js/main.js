@@ -48,7 +48,7 @@ function validate_Password() {
 password.onchange = validate_Password;
 confirm_password.onkeyup = validate_Password;
 
-/*Função para CPF*/
+/*Função para CPF
 function is_cpf(c) {
 
     if ((c = c.replace(/[^\d]/g, "")).length != 11)
@@ -112,7 +112,7 @@ cpfCheck = function (el) {
 }
 
 /*API via CEP https://viacep.com.br/exemplo/javascript/*/
-
+/*
 function limpa_formulário_cep() {
     //Limpa valores do formulário de cep.
     document.getElementById('rua').value = ("");
@@ -170,6 +170,8 @@ function pesquisacep(valor) {
 *	Copyright (c) 2014-2015 Tiago Porto (http://www.tiagoporto.com)
 *	Released under the MIT license
 */
+
+/*
 function cpf(cpf) {
     cpf = cpf.replace(/\D/g, '');
     if (cpf.toString().length != 11 || /^(\d)\1{10}$/.test(cpf)) return false;
@@ -247,4 +249,4 @@ function MascaraGenerica(seletor, tipoMascara) {
         }
     }, 200);
 }
-
+*/
