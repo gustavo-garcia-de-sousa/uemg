@@ -29,38 +29,42 @@ if (isset($_POST['submit'])) {
 
 ?>
 
-<!DOCTYPE html>
-<html lang="en">
+<section></section>
 
-<head>
-   <meta charset="UTF-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="css/style.css">
-</head>
+<div class="banner">
 
-<body>
-
-   <div class="form-container">
-
-      <form action="" method="post">
-         <h3 class="title">register now</h3>
-         <?php
-         if (isset($error)) {
-            foreach ($error as $error) {
-               echo '<span class="error-msg">' . $error . '</span>';
-            }
-         }
-         ?>
-         <input type="email" name="usermail" placeholder="enter your email" class="box" required>
-         <input type="password" name="password" placeholder="enter your password" class="box" required>
-         <input type="password" name="cpassword" placeholder="confirm your password" class="box" required>
-         <input type="submit" value="register now" class="form-btn" name="submit">
-         <p>already have an account? <a href="login_form.php">login now!</a></p>
-      </form>
-
+   <div class="conteudo">
+      <h3>Acesse o portal do Associado</h3>
+      <p>Diversos serviços, como: 2º via de boletos, portal transparência, gerenciar sócios e agendamento de horário!</p>
+      <br><br><br>
    </div>
 
-</body>
+</div>
 
-</html>
+<div class="form-container">
+
+   <form action="" method="post">
+
+      <?php
+      if (isset($error)) {
+         foreach ($error as $error) {
+            echo '<span class="error-msg">' . $error . '</span>';
+         }
+      }
+      ?>
+
+      <input type="email" name="usermail" placeholder="digite o seu melhor em-mail" class="box" required>
+
+      <input type="password" name="password" placeholder="cadastre uma senha" class="box" required>
+
+      <input type="password" name="cpassword" placeholder="confirme sua senha" class="box" required>
+
+      <input type="submit" value="se registrar agora" class="form-btn" name="submit">
+
+      <p>já é sócio do nosso clube? <a href="login_form.php">acesse agora!</a></p>
+
+   </form>
+
+</div>
+
+<?php require_once '../includes/footer.php';

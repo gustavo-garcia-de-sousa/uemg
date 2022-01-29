@@ -37,7 +37,7 @@ function show() {
 /*Função para Senhas*/
 var password = document.getElementById("password"),
     confirm_password = document.getElementById("confirm_password");
-
+/*
 function validate_Password() {
     if (password.value != confirm_password.value) {
         confirm_password.setCustomValidity("As senhas devem ser iguais");

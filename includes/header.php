@@ -30,8 +30,7 @@ Inspiração: Alvorada Praia Clube de Frutal.
 
     <!-- custom css file link -->
     <link rel="stylesheet" href="../assets/css/main.css">
-    <link rel="stylesheet" href="../assets/css/inscricao.css">
-    <link rel="stylesheet" href="../assets/css/styles.css">
+    <link rel="stylesheet" href="../assets/css/form.css">
 
     <!-- jquery script cdn link -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js" defer></script>
@@ -41,7 +40,6 @@ Inspiração: Alvorada Praia Clube de Frutal.
 
     <!-- custom js file link -->
     <script src="../js/main.js" defer></script>
-    <script src="../js/inscricao.js" defer></script>
 
 </head>
 

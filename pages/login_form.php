@@ -1,4 +1,5 @@
 <?php
+
 require_once '../src/config/conexao.php';
 require_once '../includes/header.php';
 
@@ -19,44 +20,46 @@ if (isset($_POST['submit'])) {
       $_SESSION['usermail'] = $email;
       header('location:welcome.php');
    } else {
-      $error[] = 'incorrect password or email.';
+      $error[] = 'e-mail ou senha incorretos.';
    }
 }
 
 ?>
 
+<section></section>
 
-<!DOCTYPE html>
-<html lang="en">
+<div class="banner">
 
-<head>
-   <meta charset="UTF-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="assets/css/style.css">
-</head>
-
-<body>
-
-   <div class="form-container">
-
-      <form action="" method="post">
-         <h3 class="title">login now</h3>
-         <?php
-         if (isset($error)) {
-            foreach ($error as $error) {
-               echo '<span class="error-msg">' . $error . '</span>';
-            }
-         }
-         ?>
-         <input type="email" name="usermail" placeholder="enter your email" class="box" required>
-         <input type="password" name="password" placeholder="enter your password" class="box" required>
-         <input type="submit" value="login now" class="form-btn" name="submit">
-         <p>don't have an account? <a href="register_form.php">register now!</a></p>
-      </form>
-
+   <div class="conteudo">
+      <h3>Acesse o portal do Associado</h3>
+      <p>Diversos serviços, como: 2º via de boletos, portal transparência, gerenciar sócios e agendamento de horário!</p>
+      <br><br><br>
    </div>
 
-</body>
+</div>
 
-</html>
+<div class="form-container">
+
+   <form action="" method="post">
+
+      <?php
+      if (isset($error)) {
+         foreach ($error as $error) {
+            echo '<span class="alerta error">' . $error . '</span>';
+         }
+      }
+      ?>
+
+      <input type="email" name="usermail" placeholder="digite o seu e-mail cadastrado" class="box" required>
+
+      <input type="password" name="password" placeholder="digite a sua senha" class="box" required>
+
+      <input type="submit" value="acessar" class="form-btn" name="submit">
+
+      <p>ainda não criou a sua conta? <a href="register_form.php">se inscreva agora</a></p>
+
+   </form>
+
+</div>
+
+<?php require_once '../includes/footer.php';

@@ -1,0 +1,143 @@
+
+.container{
+   min-height: 60vh;
+   background-color: #eee;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+}
+
+.container .content{
+   width: 700px;
+}
+
+.container .content h3{
+   text-transform: uppercase;
+   font-size: 5vw;
+}
+
+.container .content p{
+   font-size: 20px;
+   padding:10px 0;
+}
+
+.container .content p span{
+   color:crimson;
+}
+
+.container .content .logout{
+   display: inline-block;
+   padding:10px 35px;
+   font-size: 20px;
+   margin-top: 10px;
+   background-color: #000;
+   color:#fff;
+}
+
+.container .content .logout:hover{
+   background-color: crimson;
+}
+
+/*responsividade do formulário*/
+
+.form-container {
+   width: 90%;
+   margin: 1rem auto;
+   margin-top: -5rem;
+   background-color: #fff;
+   border-radius: 1rem;
+   -webkit-box-shadow: 0 0.5rem 1rem rgba(17, 17, 17, 0.3);
+   box-shadow: 0 0.5rem 1rem rgba(17, 17, 17, 0.3);
+   padding: 3rem 2rem;
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-align: end;
+   -ms-flex-align: end;
+   align-items: flex-end;
+   -ms-flex-wrap: wrap;
+   flex-wrap: wrap;
+   gap: 1.5rem;
+   align-items: center;
+   justify-content: center;
+}
+
+.form-container form {
+   width: 90%;
+   background-color: #fff;
+   padding: 1.2rem 1.4rem;
+   text-align: center;
+}
+
+.form-container form .box {
+   border: 0.2rem solid #000;
+   width: 100%;
+   padding: 1.2rem 1.4rem;
+   border-radius: 5rem;
+   font-size: 1.6rem;
+   color: #000;
+   background: none;
+   margin-top: 1rem;
+}
+
+.form-container form .form-btn {
+   display: block;
+   width: 100%;
+   background-color: #282828;
+   color: #fff;
+   margin-top: 1rem;
+   padding: 1.2rem 1.4rem;
+   font-size: 1.6rem;
+   border-radius: 5rem;
+   cursor: pointer;
+}
+
+.form-container form .form-btn:hover {
+   background: #29d9d5;
+   color: #111;
+}
+
+.form-container form p {
+   font-size: 1.6rem;
+   margin-top: 2rem;
+}
+
+.form-container form p a {
+   color: #29d9d5;
+}
+
+/*mensagens de advertências: https://www.divinosilva.com.br/css-criar-caixa-de-mensagem-alerta-erro-sucesso-atencao-info/*/
+
+.alerta {
+   display: block;
+   width: 100%;
+   padding: 1.2rem 1.4rem;
+   margin-top: 2rem;
+   font-size: 1.6rem;
+   border-radius: 5rem;
+}
+
+.error {
+   border-color: #e8273b;
+   color: #FFF;
+   background-color: #ed5565;
+}
+
+.sucesso {
+   border-color: #87c940;
+   color: #FFF;
+   background-color: #a0d468;
+}
+
+.atencao {
+   border-color: #f4a911;
+   color: #FFF;
+   background-color: #f6bb42;
+}
+
+.info {
+   border-color: #2f80e7;
+   color: #FFF;
+   background-color: #5d9cec;
+}
