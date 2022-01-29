@@ -21,7 +21,7 @@
                 <p> <i class="fas fa-map"></i> Avenida Juscelino Kubitscheck, nº 1050, Jardim Brasil - Frutal, Minas
                     Gerais </p>
                 <p> <i class="fas fa-phone"></i> +55 34 3423-6868 </p>
-                <p> <i class="fas fa-envelope"></i> contato@alvorada.com.br </p>
+                <p> <i class="fas fa-envelope"></i> contato@clubealvorada.com.br </p>
                 <p> <i class="fas fa-clock"></i> Estamos abertos das 08:00 às 22:00 horas</p>
             </div>
 

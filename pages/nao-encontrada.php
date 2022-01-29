@@ -12,7 +12,7 @@
 <section class="not-found">
 
     <h3>OPS! Não conseguimos encontrar a página que você está procurando.</h3>
-    <span>Não se preocupe, pois ela está em boa companhia com as outras coisas que não existem no mundo do Clube do Recanto.</span>
+    <span>Não se preocupe, pois ela está em boa companhia com as outras coisas que não existem no mundo do Clube Alvorada.</span>
     <br><a href="../index.php" class="btn">Voltar para página inicial</a>
 
 </section>

@@ -20,7 +20,7 @@ Inspiração: Alvorada Praia Clube de Frutal.
     <title>Clube Alvorada</title>
 
     <!-- favicon -->
-    <link rel="shortcut icon" type="../assets/images/png" href="../assets/images/favicon.ico">
+    <link rel="shortcut icon" type="../../assets/images/png" href="../assets/images/favicon.ico">
 
     <!-- font awesome cdn link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
@@ -29,8 +29,8 @@ Inspiração: Alvorada Praia Clube de Frutal.
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
 
     <!-- custom css file link -->
-    <link rel="stylesheet" href="../assets/css/main.css">
-    <link rel="stylesheet" href="../assets/css/form.css">
+    <link rel="stylesheet" href="../../assets/css/main.css">
+    <link rel="stylesheet" href="../../assets/css/form.css">
 
     <!-- jquery script cdn link -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js" defer></script>
@@ -40,7 +40,6 @@ Inspiração: Alvorada Praia Clube de Frutal.
 
     <!-- custom js file link -->
     <script src="../js/main.js" defer></script>
-    <script src="../js/custom.js" defer></script>
 
 </head>
 
@@ -55,11 +54,10 @@ Inspiração: Alvorada Praia Clube de Frutal.
         <a data-aos="zoom-in-left" data-aos-delay="150" href="../index.php" class="logo">Clube Alvorada</a>
 
         <nav class="navbar">
-            <a data-aos="zoom-in-left" data-aos-delay="150" href="../index.php#sobre">Início</a>
-            <a data-aos="zoom-in-left" data-aos-delay="150" href="../index.php#eventos">Eventos</a>
-            <a data-aos="zoom-in-left" data-aos-delay="150" href="../index.php#servicos">Experiências</a>
-            <a data-aos="zoom-in-left" data-aos-delay="150" href="../index.php#review">Nossos Sócios</a>
-            <a data-aos="zoom-in-left" data-aos-delay="150" href="../index.php#visita">Agendar Visita</a>
+            <a data-aos="zoom-in-left" data-aos-delay="150" href="../pages/nao-encontrada.php">Horários do Clube</a>
+            <a data-aos="zoom-in-left" data-aos-delay="150" href="../pages/nao-encontrada.php">Eventos</a>
+            <a data-aos="zoom-in-left" data-aos-delay="150" href="../pages/nao-encontrada.php">2º via de Boletos</a>
+            <a data-aos="zoom-in-left" data-aos-delay="150" href="../pages/nao-encontrada.php">Pacote de Assinatura</a>
         </nav>
 
         <a data-aos="zoom-in-left" data-aos-delay="150" href="../pages/login_form.php" class="btn"><strong>Associado</strong></a>

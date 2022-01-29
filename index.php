@@ -1,5 +1,7 @@
 <?php require_once 'includes/header.php'; ?>
 
+<br>
+
 <!-- inicio section starts  -->
 <section class="sobre" id="sobre">
 
@@ -10,7 +12,7 @@
     <div class="conteudo" data-aos="fade-left" data-aos-delay="600">
         <h3>Um Clube completo em meio à Natureza</h3>
         <span>Nós estamos abertos todos os dias, das 08:00 às 22:00 horas.</span>
-        <p>Desde 1992 se comprometendo a oferecer as melhores experiências. Torne-se sócio hoje mesmo!<br>
+        <p>Desde 1992 se comprometendo a oferecer as melhores experiências. Torne-se sócio hoje mesmo!
             Clique em <strong>"Tornar-se Sócio"</strong> e você será redirecionado para a página de inscrição.</p>
         <a href="pages/register_form.php" class="btn"><strong>Tornar-se Sócio</strong></a>
     </div>
@@ -225,7 +227,7 @@
 
 <!-- banner section starts  -->
 
-<div class="banner">
+<div class="banner" id="visita">
 
     <div class="conteudo">
         <h3>Seja um Associado do Clube</h3>
