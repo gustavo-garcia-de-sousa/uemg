@@ -6,12 +6,11 @@ require_once '../../src/config/conexao.php';
 session_start();
 
 if (!isset($_SESSION['email'])) {
-   header('location:login_form.php');
+   header('location:../login_form.php');
 }
 
 ?>
 
-<section></section>
 
 <div class="container">
    <div class="content">

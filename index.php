@@ -39,7 +39,7 @@
                 <p>Após reestruturação do espaço de Voleibol, nos solidarizamos a emprestar o espaço às disputas
                     Municipais. O evento acontecerá no dia 06 de Fevereiro às 08:00 entre as equipes inscritas. O
                     acesso estará liberado ao público durante os jogos.</p>
-                <a href="../pages/nao-encontrada.php">Saiba mais <i class="fas fa-angle-right"></i></a>
+                <a href="../pages/nao_encontrada.php">Saiba mais <i class="fas fa-angle-right"></i></a>
             </div>
         </div>
 
@@ -53,7 +53,7 @@
                 <p>Já começamos o ano de 2022 com o pé direito. No dia 10 de Fevereiro será inaugurado o primeiro
                     espaço de tênis dentro do Clube. Convidamos todos os sócios para prestigiar esta inauguração. A
                     fita será cortada às 18:00 horas.</p>
-                <a href="../pages/nao-encontrada.php">Saiba mais <i class="fas fa-angle-right"></i></a>
+                <a href="../pages/nao_encontrada.php">Saiba mais <i class="fas fa-angle-right"></i></a>
             </div>
         </div>
 
@@ -67,7 +67,7 @@
                 <p>No dia 20 de Fevereiro, acontecerá o 9º Futebol entre amigos. As entidades beneficiárias
                     deste ano serão o CENTRO EDUCACIONAL PEQUENINOS DE JESUS e CASA DA CRIANÇA. Aberto ao público
                     das 08:00 às 17:00 horas.</p>
-                <a href="../pages/nao-encontrada.php">Saiba mais <i class="fas fa-angle-right"></i></a>
+                <a href="../pages/nao_encontrada.php">Saiba mais <i class="fas fa-angle-right"></i></a>
             </div>
         </div>
 
@@ -234,7 +234,7 @@
         <span>Qualidade de vida para você e sua família.</span>
         <p>Venha nos fazer uma visita e conheça! Oferecemos diversos passes, é só escolher o que melhor combina para
             você!</p>
-        <a href="../pages/nao-encontrada.php" class="btn">Agendar Visita</a>
+        <a href="../pages/nao_encontrada.php" class="btn">Agendar Visita</a>
     </div>
 
 </div>

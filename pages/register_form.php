@@ -9,8 +9,9 @@ session_start();
 
 if (isset($_POST['submit'])) {
 
-   $usuario = ($_POST['usuario']);
-   $email = ($_POST['email']);
+   $output = array();
+   $usuario = $_POST['usuario'];
+   $email = $_POST['email'];
    $senha = md5(md5($_POST['senha']));
    $confirm_senha = md5(md5($_POST['confirm_senha']));
 
@@ -21,16 +22,35 @@ if (isset($_POST['submit'])) {
    $statement->bindValue(':senha', $senha);
    /*métodos utilizados para evitar SQl INJECTION*/
 
+   $count = $statement->rowCount();
 
-   if ($senha != $confirm_senha) {
-      $error[] = 'As senhas não são iguais!';
-   } else {
+   if ($count > 0) {
 
-      try {
+      if (empty($usuario)) {
 
-         $statement->execute();
-         header('location:login_form.php');
-      } catch (PDOException $error) {
+         $output['usuario_error'] = 'First Name is Required';
+      }
+
+      if (empty($email)) {
+
+         $output['email_error'] = 'Email is Required';
+      } else {
+
+         if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+            $output['email_error'] = 'Invalid Email Format';
+         }
+      }
+
+      if ($senha != $confirm_senha) {
+         $error[] = 'As senhas não são iguais!';
+      } else {
+
+         try {
+
+            $statement->execute();
+            header('location:login_form.php');
+         } catch (PDOException $error) {
+         }
       }
    }
 }

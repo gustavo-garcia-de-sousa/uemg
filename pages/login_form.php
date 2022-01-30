@@ -7,7 +7,7 @@ session_start();
 
 if (isset($_POST['submit'])) {
 
-   $email = ($_POST['email']);
+   $email = $_POST['email'];
    $senha = md5(md5($_POST['senha']));
 
    $statement = $conn->query("SELECT * FROM usuarios WHERE email = '$email' && senha = '$senha'");

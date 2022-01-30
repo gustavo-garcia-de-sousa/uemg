@@ -8,6 +8,16 @@ Adaptado do site: https://ccrc.org.br/institucional/
 Inspiração: Alvorada Praia Clube de Frutal.
 -->
 
+<?php
+
+session_start();
+
+if (!isset($_SESSION['email'])) {
+    header('location:login_form.php');
+}
+
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -30,7 +40,7 @@ Inspiração: Alvorada Praia Clube de Frutal.
 
     <!-- custom css file link -->
     <link rel="stylesheet" href="../../assets/css/main.css">
-    <link rel="stylesheet" href="../../assets/css/form.css">
+    <link rel="stylesheet" href="../../assets/css/custom.css">
 
     <!-- jquery script cdn link -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js" defer></script>
@@ -39,7 +49,7 @@ Inspiração: Alvorada Praia Clube de Frutal.
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" defer></script>
 
     <!-- custom js file link -->
-    <script src="../js/main.js" defer></script>
+    <script src="../../js/main.js" defer></script>
 
 </head>
 
@@ -56,11 +66,10 @@ Inspiração: Alvorada Praia Clube de Frutal.
         <nav class="navbar">
             <a data-aos="zoom-in-left" data-aos-delay="150" href="../pages/nao-encontrada.php">Horários do Clube</a>
             <a data-aos="zoom-in-left" data-aos-delay="150" href="../pages/nao-encontrada.php">Eventos</a>
-            <a data-aos="zoom-in-left" data-aos-delay="150" href="../pages/nao-encontrada.php">2º via de Boletos</a>
-            <a data-aos="zoom-in-left" data-aos-delay="150" href="../pages/nao-encontrada.php">Pacote de Assinatura</a>
+            <a data-aos="zoom-in-left" data-aos-delay="150" href="../../pages/access/usuarios.php">Associados</a>
         </nav>
 
-        <a data-aos="zoom-in-left" data-aos-delay="150" href="../pages/login_form.php" class="btn"><strong>Associado</strong></a>
+        <a data-aos="zoom-in-left" data-aos-delay="150" href="../logout.php" class="btn"><strong><?= $_SESSION['email']; ?></strong></a>
 
     </header>
 

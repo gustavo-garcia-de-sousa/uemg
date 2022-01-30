@@ -4,15 +4,15 @@
         <div class="box-container">
 
             <div class="box">
-                <a href="../pages/nao-encontrada.php" class="logo">
+                <a href="../pages/nao_encontrada.php" class="logo">
                     <h3>Clube Alvorada</h3>
                 </a>
                 <p>Estamos presentes nas maiores Redes Sociais. Não deixe de nos seguir!</p>
                 <div class="share">
-                    <a href="../pages/nao-encontrada.php" class="fab fa-facebook-f"></a>
-                    <a href="../pages/nao-encontrada.php" class="fab fa-tiktok"></a>
-                    <a href="../pages/nao-encontrada.php" class="fab fa-instagram"></a>
-                    <a href="../pages/nao-encontrada.php" class="fab fa-linkedin"></a>
+                    <a href="../pages/nao_encontrada.php" class="fab fa-facebook-f"></a>
+                    <a href="../pages/nao_encontrada.php" class="fab fa-tiktok"></a>
+                    <a href="../pages/nao_encontrada.php" class="fab fa-instagram"></a>
+                    <a href="../pages/nao_encontrada.php" class="fab fa-linkedin"></a>
                 </div>
             </div>
 
