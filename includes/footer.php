@@ -40,6 +40,12 @@
         });
     </script>
 
+    <!-- jquery script cdn link -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- custom js file aos cdn link -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
     </body>
 
     </html>

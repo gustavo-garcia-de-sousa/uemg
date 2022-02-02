@@ -164,7 +164,6 @@ input:valid~span {
     letter-spacing: 0.1em;
 }
 
-
 .input span.error {
     display: flex;
     padding: 0;

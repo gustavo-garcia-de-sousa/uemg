@@ -7,18 +7,25 @@ session_start();
 
 if (isset($_POST['submit'])) {
 
+   $niveis_acesso = $_POST['niveis_acesso'];
    $email = $_POST['email'];
    $senha = md5(md5($_POST['senha']));
 
-   $statement = $conn->query("SELECT * FROM usuarios WHERE email = '$email' && senha = '$senha'");
-   $select = $statement->fetchAll(PDO::FETCH_ASSOC);
+   $statement = $conn->query("SELECT * FROM usuarios WHERE email = '$email' AND senha = '$senha' AND niveis_acesso = '$niveis_acesso'");
    $statement->execute();
 
-   $count = $statement->rowCount();
+   if ($statement->rowCount() > 0) {
 
-   if ($count > 0) {
+      $select = $statement->fetchAll(PDO::FETCH_ASSOC);
+
       $_SESSION['email'] = $email;
-      header('location:access/welcome.php');
+      $_SESSION['niveis_acesso'] = $niveis_acesso;
+
+      if ($niveis_acesso == 1) {
+         header('location:access/welcome_adm.php');
+      } else {
+         header('location:../index.php');
+      }
    } else {
       $error[] = 'e-mail ou senha incorretos.';
    }
@@ -51,11 +58,14 @@ if (isset($_POST['submit'])) {
       }
       ?>
 
+      <select name="niveis_acesso" class="box" required>
+         <option value="0" selected>Associado</option>
+         <option value="1">Administrador</option>
+      </select>
+
       <input type="email" name="email" placeholder="digite o seu e-mail cadastrado" class="box" required>
-      <span class="advertencia"></span>
 
       <input type="password" name="senha" placeholder="digite a sua senha" class="box" required>
-      <span class="advertencia"></span>
 
       <input type="submit" value="acessar" class="form-btn" name="submit">
 

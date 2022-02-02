@@ -9,7 +9,6 @@ session_start();
 
 if (isset($_POST['submit'])) {
 
-   $output = array();
    $usuario = $_POST['usuario'];
    $email = $_POST['email'];
    $senha = md5(md5($_POST['senha']));
@@ -22,35 +21,14 @@ if (isset($_POST['submit'])) {
    $statement->bindValue(':senha', $senha);
    /*métodos utilizados para evitar SQl INJECTION*/
 
-   $count = $statement->rowCount();
+   if ($senha != $confirm_senha) {
+      $error[] = 'As senhas não são iguais!';
+   } else {
 
-   if ($count > 0) {
-
-      if (empty($usuario)) {
-
-         $output['usuario_error'] = 'First Name is Required';
-      }
-
-      if (empty($email)) {
-
-         $output['email_error'] = 'Email is Required';
-      } else {
-
-         if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-            $output['email_error'] = 'Invalid Email Format';
-         }
-      }
-
-      if ($senha != $confirm_senha) {
-         $error[] = 'As senhas não são iguais!';
-      } else {
-
-         try {
-
-            $statement->execute();
-            header('location:login_form.php');
-         } catch (PDOException $error) {
-         }
+      try {
+         $statement->execute();
+         header('location:login_form.php');
+      } catch (PDOException $error) {
       }
    }
 }
@@ -82,16 +60,12 @@ if (isset($_POST['submit'])) {
       ?>
 
       <input type="txt" name="usuario" placeholder="digite o seu nome" class="box" required>
-      <span class="advertencia"></span>
 
       <input type="email" name="email" placeholder="digite o seu melhor em-mail" class="box" required>
-      <span class="advertencia"></span>
 
       <input type="password" name="senha" placeholder="cadastre uma senha" class="box" required>
-      <span class="advertencia"></span>
 
       <input type="password" name="confirm_senha" placeholder="confirme sua senha" class="box" required>
-      <span class="advertencia"></span>
 
       <input type="submit" value="se registrar agora" class="form-btn" name="submit">
 
