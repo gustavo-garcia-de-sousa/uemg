@@ -23,7 +23,7 @@ require_once '../src/config/conexao.php';
 	$result = $statement->fetchAll();
 	?>
 
-	<div style="text-align:right;margin:20px 0px;"><a href="add.php" class="button_link"><img src="crud-icon/add.png" usuario="Add New Record" style="vertical-align:bottom;" /></a></div>
+	<div style="text-align:right;margin:20px 0px;"><a href="add.php" class="button_link"><img src="icon/add.png" usuario="Add New Record" style="vertical-align:bottom;" /></a></div>
 
 	<div class="container">
 
@@ -50,7 +50,7 @@ require_once '../src/config/conexao.php';
 							<td><?php echo $row["usuario"]; ?></td>
 							<td><?php echo $row["email"]; ?></td>
 							<td><?php echo $row["senha"]; ?></td>
-							<td><a class="ajax-action-links" href='edit.php?id_usuario=<?php echo $row['id_usuario']; ?>'><img src="crud-icon/edit.png" usuario="Edit" /></a> <a class="ajax-action-links" href='delete.php?id_usuario=<?php echo $row['id_usuario']; ?>'><img src="crud-icon/delete.png" usuario="Delete" /></a></td>
+							<td><a class="ajax-action-links" href='edit.php?id_usuario=<?php echo $row['id_usuario']; ?>'><img src="icon/edit.png" usuario="Edit" /></a> <a class="ajax-action-links" href='delete.php?id_usuario=<?php echo $row['id_usuario']; ?>'><img src="icon/delete.png" usuario="Delete" /></a></td>
 						</tr>
 
 				<?php

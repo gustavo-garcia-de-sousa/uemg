@@ -1,6 +1,6 @@
 -- MySQL dump 10.13  Distrib 8.0.28, for Win64 (x86_64)
 --
--- Host: localhost    Database: clube_alvorada
+-- Host: localhost    Database: clube_recanto
 -- ------------------------------------------------------
 -- Server version	8.0.28
 
@@ -30,7 +30,7 @@ CREATE TABLE `usuarios` (
   `status` int NOT NULL DEFAULT '0',
   `niveis_acesso` int NOT NULL DEFAULT '0',
   PRIMARY KEY (`id_usuario`)
-) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -39,7 +39,7 @@ CREATE TABLE `usuarios` (
 
 LOCK TABLES `usuarios` WRITE;
 /*!40000 ALTER TABLE `usuarios` DISABLE KEYS */;
-INSERT INTO `usuarios` VALUES (1,'gustavo','gustavo@gustavo.com','a6dd42fbbade396ddc9f5c2d61389939',0,1),(2,'jota@jota.com','jota@jota.com','5c67fefc10a53cc13e0a5d0a63d86ef0',0,0),(3,'administrador','administrador@clubealvorada.com','0942beb518062cd47781477e544a786e',0,1);
+INSERT INTO `usuarios` VALUES (3,'administrador','administrador@clubealvorada.com','0942beb518062cd47781477e544a786e',0,1),(6,'Thanos, O brabo','thanos@joias.com','usuario',0,0),(7,'Steve Rogers','eua@assemble.com','0398149bba6317853939987dddfa2be5',0,0),(8,'Sr. Fantástico','sr.fantastico@gmail.com','529b42b38e10b09d3aad7a1a37dc1f47',0,0);
 /*!40000 ALTER TABLE `usuarios` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -52,4 +52,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2022-02-02 12:15:53
+-- Dump completed on 2022-02-03 23:07:39
