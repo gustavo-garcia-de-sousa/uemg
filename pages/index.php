@@ -47,9 +47,9 @@ require_once '../src/config/conexao.php';
 					foreach ($result as $row) {
 				?>
 						<tr>
-							<td><?php echo $row["usuario"]; ?></td>
-							<td><?php echo $row["email"]; ?></td>
-							<td><?php if ($row["niveis_acesso"] == 1) {
+							<td data-label="Usuário: "><?php echo $row["usuario"]; ?></td>
+							<td data-label="E-mail: "><?php echo $row["email"]; ?></td>
+							<td data-label="Nível de Acesso: "><?php if ($row["niveis_acesso"] == 1) {
 									echo "Administrador";
 								} else {
 									echo "Sócio";

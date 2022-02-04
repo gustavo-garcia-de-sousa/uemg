@@ -12,7 +12,7 @@ if (isset($_POST['submit'])) {
    $senha = md5(md5($_POST['senha']));
 
    $statement = $conn->query("SELECT * FROM usuarios WHERE email = '$email' AND senha = '$senha' AND niveis_acesso = '$niveis_acesso'");
-   $select = $statement->fetchAll(PDO::FETCH_ASSOC);
+   $statement->fetchAll(PDO::FETCH_ASSOC);
    $statement->execute();
 
    if ($statement->rowCount() > 0) {
