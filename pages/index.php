@@ -34,7 +34,7 @@ require_once '../src/config/conexao.php';
 				<tr>
 					<th>usuário</th>
 					<th>e-mail</th>
-					<th>senha</th>
+					<th>nível de acesso</th>
 					<th>ações</th>
 				</tr>
 
@@ -49,7 +49,11 @@ require_once '../src/config/conexao.php';
 						<tr>
 							<td><?php echo $row["usuario"]; ?></td>
 							<td><?php echo $row["email"]; ?></td>
-							<td><?php echo $row["senha"]; ?></td>
+							<td><?php if ($row["niveis_acesso"] == 1) {
+									echo "Administrador";
+								} else {
+									echo "Sócio";
+								}; ?></td>
 							<td><a class="ajax-action-links" href='edit.php?id_usuario=<?php echo $row['id_usuario']; ?>'><img src="icon/edit.png" usuario="Edit" /></a> <a class="ajax-action-links" href='delete.php?id_usuario=<?php echo $row['id_usuario']; ?>'><img src="icon/delete.png" usuario="Delete" /></a></td>
 						</tr>
 
