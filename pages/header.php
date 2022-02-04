@@ -57,14 +57,12 @@ Inspiração: Alvorada Praia Clube de Frutal.
         <a data-aos="zoom-in-left" data-aos-delay="150" href="../index.php" class="logo">Clube Alvorada</a>
 
         <nav class="navbar">
-            <a data-aos="zoom-in-left" data-aos-delay="150" href="../index.php#sobre">Início</a>
-            <a data-aos="zoom-in-left" data-aos-delay="150" href="../index.php#eventos">Eventos</a>
-            <a data-aos="zoom-in-left" data-aos-delay="150" href="../index.php#servicos">Experiências</a>
-            <a data-aos="zoom-in-left" data-aos-delay="150" href="../index.php#review">Nossos Sócios</a>
-            <a data-aos="zoom-in-left" data-aos-delay="150" href="../index.php#visita">Agendar Visita</a>
+            <a data-aos="zoom-in-left" data-aos-delay="150" href="nao_encontrada.php">Incluir Evento</a>
+            <a data-aos="zoom-in-left" data-aos-delay="150" href="index.php">Alterar Sócios</a>
+            <a data-aos="zoom-in-left" data-aos-delay="150" href="nao_encontrada.php">Mensagem</a>
         </nav>
 
-        <a data-aos="zoom-in-left" data-aos-delay="150" href="../pages/login_form.php" class="btn"><strong>acessar</strong></a>
+        <a data-aos="zoom-in-left" data-aos-delay="150" href="logout.php" class="btn"><strong>logout</strong></a>
 
     </header>
 

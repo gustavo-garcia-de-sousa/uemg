@@ -13,8 +13,8 @@
         <h3>Um Clube completo em meio à Natureza</h3>
         <span>Nós estamos abertos todos os dias, das 08:00 às 22:00 horas.</span>
         <p>Desde 1992 se comprometendo a oferecer as melhores experiências. Torne-se sócio hoje mesmo!
-            Clique em <strong>"Tornar-se Sócio"</strong> e você será redirecionado para a página de inscrição.</p>
-        <a href="pages/register_form.php" class="btn"><strong>Tornar-se Sócio</strong></a>
+            Clique em <strong>"quero ser sócio"</strong> e você será redirecionado para a página de inscrição.</p>
+        <a href="pages/register_form.php" class="btn"><strong>quero ser sócio</strong></a>
     </div>
 
 </section>
@@ -29,10 +29,12 @@
 
     <div class="box-container">
 
-        <div class="box" data-aos="fade-up" data-aos-delay="150">
+        <div class="box" data-aos="fade-up" data-aos-delay="50">
+
             <div class="image">
                 <img src="assets/images/blog-1.jpg" alt="">
             </div>
+
             <div class="conteudo">
                 <h3>1º Torneio de Voleibol</h3>
                 <span>(VAGAS LIMITADAS)</span>
@@ -41,12 +43,15 @@
                     acesso estará liberado ao público durante os jogos.</p>
                 <a href="../pages/nao_encontrada.php">Saiba mais <i class="fas fa-angle-right"></i></a>
             </div>
+
         </div>
 
-        <div class="box" data-aos="fade-up" data-aos-delay="150">
+        <div class="box" data-aos="fade-up" data-aos-delay="50">
+
             <div class="image">
                 <img src="assets/images/blog-2.jpg" alt="">
             </div>
+
             <div class="conteudo">
                 <h3>Inauguração Espaço de Tênis</h3>
                 <span><br></span>
@@ -55,12 +60,15 @@
                     fita será cortada às 18:00 horas.</p>
                 <a href="../pages/nao_encontrada.php">Saiba mais <i class="fas fa-angle-right"></i></a>
             </div>
+
         </div>
 
-        <div class="box" data-aos="fade-up" data-aos-delay="150">
+        <div class="box" data-aos="fade-up" data-aos-delay="50">
+
             <div class="image">
                 <img src="assets/images/blog-3.jpg" alt="">
             </div>
+
             <div class="conteudo">
                 <h3>Esporte entre amigos</h3>
                 <span>(INGRESSO: 1 KG de Alimento não perecível)</span>
@@ -69,6 +77,7 @@
                     das 08:00 às 17:00 horas.</p>
                 <a href="../pages/nao_encontrada.php">Saiba mais <i class="fas fa-angle-right"></i></a>
             </div>
+
         </div>
 
     </div>
@@ -86,72 +95,72 @@
 
     <div class="box-container">
 
-        <div class="box" data-aos="zoom-in-up" data-aos-delay="150">
+        <div class="box" data-aos="zoom-in-up" data-aos-delay="50">
             <i class="fas fa-utensils"></i>
             <h3>Restaurantes</h3>
         </div>
 
-        <div class="box" data-aos="zoom-in-up" data-aos-delay="150">
+        <div class="box" data-aos="zoom-in-up" data-aos-delay="50">
             <i class="fas fa-hotel"></i>
             <h3>Hospedagens</h3>
         </div>
 
-        <div class="box" data-aos="zoom-in-up" data-aos-delay="150">
+        <div class="box" data-aos="zoom-in-up" data-aos-delay="50">
             <i class="fas fa-campground"></i>
             <h3>Camping</h3>
         </div>
 
-        <div class="box" data-aos="zoom-in-up" data-aos-delay="150">
+        <div class="box" data-aos="zoom-in-up" data-aos-delay="50">
             <i class="fas fa-hot-tub"></i>
             <h3>2 Saunas Masculinas e Femininas</h3>
         </div>
 
-        <div class="box" data-aos="zoom-in-up" data-aos-delay="150">
+        <div class="box" data-aos="zoom-in-up" data-aos-delay="50">
             <i class="fas fa-fish"></i>
             <h3>Lago de Pesca Esportiva</h3>
         </div>
 
-        <div class="box" data-aos="zoom-in-up" data-aos-delay="150">
+        <div class="box" data-aos="zoom-in-up" data-aos-delay="50">
             <i class="fas fa-biking"></i>
             <h3>Trilhas de Bike</h3>
         </div>
 
-        <div class="box" data-aos="zoom-in-up" data-aos-delay="150">
+        <div class="box" data-aos="zoom-in-up" data-aos-delay="50">
             <i class="fas fa-swimmer"></i>
             <h3>3 piscinas</h3>
         </div>
 
-        <div class="box" data-aos="zoom-in-up" data-aos-delay="150">
+        <div class="box" data-aos="zoom-in-up" data-aos-delay="50">
             <i class="fas fa-futbol"></i>
             <h3>4 Campos de Futebol</h3>
         </div>
 
-        <div class="box" data-aos="zoom-in-up" data-aos-delay="150">
+        <div class="box" data-aos="zoom-in-up" data-aos-delay="50">
             <i class="fas fa-basketball-ball"></i>
             <h3>2 Quadras de Basquete</h3>
         </div>
 
-        <div class="box" data-aos="zoom-in-up" data-aos-delay="150">
+        <div class="box" data-aos="zoom-in-up" data-aos-delay="50">
             <i class="fas fa-dumbbell"></i>
             <h3>Academia</h3>
         </div>
 
-        <div class="box" data-aos="zoom-in-up" data-aos-delay="150">
+        <div class="box" data-aos="zoom-in-up" data-aos-delay="50">
             <i class="fas fa-volleyball-ball"></i>
             <h3>3 Quadras de Voleibol</h3>
         </div>
 
-        <div class="box" data-aos="zoom-in-up" data-aos-delay="150">
+        <div class="box" data-aos="zoom-in-up" data-aos-delay="50">
             <i class="fas fa-bullseye"></i>
             <h3>Tiro ao Alvo (Padrão Olímpico)</h3>
         </div>
 
-        <div class="box" data-aos="zoom-in-up" data-aos-delay="150">
+        <div class="box" data-aos="zoom-in-up" data-aos-delay="50">
             <i class="fas fa-glass-cheers"></i>
             <h3>2 salões de Eventos</h3>
         </div>
 
-        <div class="box" data-aos="zoom-in-up" data-aos-delay="150">
+        <div class="box" data-aos="zoom-in-up" data-aos-delay="50">
             <i class="fas fa-table-tennis"></i>
             <h3>1 Quadra de Tênis</h3>
         </div>
@@ -164,12 +173,12 @@
 <!-- review section starts  -->
 <section class="review" id="review">
 
-    <div class="conteudo" data-aos="fade-right" data-aos-delay="150">
+    <div class="conteudo" data-aos="fade-right" data-aos-delay="50">
         <h3>Os sócios Amam o nosso Clube!</h3>
         <span>veja o que eles escreveram...</span>
     </div>
 
-    <div class="box-container" data-aos="fade-left" data-aos-delay="150">
+    <div class="box-container" data-aos="fade-left" data-aos-delay="50">
 
         <div class="box">
             <p>"Eu me tornei fã do Clube desde a primeira vez que o visitei. Foi amor a primeira vista! Logo

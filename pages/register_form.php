@@ -21,14 +21,22 @@ if (isset($_POST['submit'])) {
    $statement->bindValue(':senha', $senha);
    /*métodos utilizados para evitar SQl INJECTION*/
 
-   if ($senha != $confirm_senha) {
-      $error[] = 'As senhas não são iguais!';
-   } else {
+   $count = $statement->rowCount();
 
-      try {
-         $statement->execute();
-         header('location:login_form.php');
-      } catch (PDOException $error) {
+   if (!$count < 0) {
+
+      $error[] = 'Este usuário já está cadastrado!';
+   } else {
+      if ($senha != $confirm_senha) {
+
+         $error[] = 'As senhas não são iguais!';
+      } else {
+
+         try {
+            $statement->execute();
+            header('location:login_form.php');
+         } catch (PDOException $error) {
+         }
       }
    }
 }
@@ -59,13 +67,13 @@ if (isset($_POST['submit'])) {
       }
       ?>
 
-      <input type="txt" name="usuario" placeholder="digite o seu nome" class="box" required>
+      <input type="txt" name="usuario" placeholder="digite o seu nome" class="box" maxlength="40" required>
 
-      <input type="email" name="email" placeholder="digite o seu melhor em-mail" class="box" required>
+      <input type="email" name="email" placeholder="digite o seu melhor em-mail" class="box" maxlength="40" required>
 
-      <input type="password" name="senha" placeholder="cadastre uma senha" class="box" required>
+      <input type="password" name="senha" placeholder="cadastre uma senha" class="box" maxlength="20" required>
 
-      <input type="password" name="confirm_senha" placeholder="confirme sua senha" class="box" required>
+      <input type="password" name="confirm_senha" placeholder="confirme sua senha" class="box" maxlength="20" required>
 
       <input type="submit" value="se registrar agora" class="form-btn" name="submit">
 
